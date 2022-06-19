@@ -10,6 +10,10 @@ module.exports = {
       ringOpacity: false,
     },
     fontSize: {
+      'sm': ['1.1rem', {
+        letterSpacing: '0.05em',
+        lineHeight: '1.95rem',
+      }],
       'base': ['1.5rem', {
         letterSpacing: '0.1em',
         lineHeight: '2rem',
