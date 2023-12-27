@@ -8,7 +8,7 @@ export default function Home() {
       </header>
 
       <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 py-8 xl:max-w-7xl xl:grid-cols-12 xl:p-12">
-        <div className="relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
+        <div className="max-xl:-order-1 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
           <div className="relative mb-4 grid items-center xl:mb-0">
             <Image alt="James Toone" width={96} height={96} className="object-cover object-left-top rounded-full size-24 bg-zinc-600" src="/me.jpg" />
           </div>
@@ -134,7 +134,7 @@ export default function Home() {
             </li>
           </ol>
         </div>
-        <div className="rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
+        <div className="max-xl:-order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
           <div>
             <div className="text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
             <div className="text-lg xl:text-xl space-y-3 text-zinc-100 text-balance">
