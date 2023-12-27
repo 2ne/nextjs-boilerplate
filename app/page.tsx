@@ -145,8 +145,8 @@ export default function Home() {
           <div className="-mt-1">
             <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
             <div className="text-base sm:text-lg space-y-3 text-balance">
-              <p>I specialise in crafting refined, user-focused products, adopting a streamlined UX process.</p>
-              <p>I also optimise development workflows to enable teams to build high quality user interfaces which are maintainable.</p>
+              <p>I specialise in crafting refined, user-focused products, utilising a streamlined UX process.</p>
+              <p>Additionally I enhance development processes to enable teams to build high quality, maintainable user interfaces.</p>
             </div>
           </div>
         </div>
