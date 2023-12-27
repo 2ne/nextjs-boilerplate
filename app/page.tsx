@@ -6,18 +6,16 @@ export default function Home() {
       <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12">
         <h1 className="font-semibold text-xl tracking-tight">James Toone</h1>
       </header>
-
-      <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 py-8 xl:max-w-7xl xl:grid-cols-12 xl:p-12">
+      <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 xl:max-w-7xl xl:grid-cols-12 xl:p-12">
         <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
           <div className="relative mb-4 grid items-center xl:mb-0">
-            <Image alt="James Toone" width={96} height={96} className="object-cover object-left-top rounded-full size-24 bg-zinc-600" src="/me.jpg" />
+            <Image alt="James Toone" width={96} height={96} className="object-cover object-left-top rounded-full size-20 xl:size-24 bg-zinc-600" src="/me.jpg" />
           </div>
           <div className="relative grid items-end gap-1 xl:row-span-2 xl:gap-0">
             <div className="text-balance text-xl font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</div>
             <div className="text-lg font-medium tracking-tight text-zinc-600">James Toone, Lead Product Designer.</div>
           </div>
         </div>
-
         <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
           <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
             <div className="col-span-3 xl:grid xl:gap-1">
@@ -134,13 +132,12 @@ export default function Home() {
             </li>
           </ol>
         </div>
-
         <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
           <div>
             <div className="text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
             <div className="text-lg xl:text-xl space-y-3 text-zinc-100 text-balance">
               <p>I specialise in crafting refined, user-focused products with a streamlined UX process.</p>
-              <p>I optimise development workflows to enable teams to build high quality user interfaces which are maintainable.</p>
+              <p>I also optimise development workflows to enable teams to build high quality user interfaces which are maintainable.</p>
             </div>
           </div>
         </div>
