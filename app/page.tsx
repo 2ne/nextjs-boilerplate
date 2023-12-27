@@ -7,7 +7,7 @@ export default function Home() {
         <h1 className="font-semibold text-lg sm:text-xl tracking-tight">James Toone</h1>
         <button
           type="button"
-          className="text-sm sm:text-base from-sky-400 to-sky-300 bg-gradient-to-br text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-sky-300 shadow-lg shadow-sky-500/25"
+          className="text-sm sm:text-base from-emerald-400 to-emerald-300 bg-gradient-to-br text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-emerald-300 shadow-lg shadow-lime-600/25"
         >
           Contact
         </button>
