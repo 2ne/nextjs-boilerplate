@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12 flex justify-between items-center">
         <h1 className="font-semibold text-xl tracking-tight">James Toone</h1>
-        <button type="button" className="bg-sky-300 text-zinc-950 rounded-full px-4 py-1.5 font-medium">
+        <button type="button" className="from-sky-400 to-sky-300 bg-gradient-to-br text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-sky-300">
           Contact
         </button>
       </header>
