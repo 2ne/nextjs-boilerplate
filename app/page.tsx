@@ -4,8 +4,11 @@ export default function Home() {
   return (
     <>
       <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12 flex justify-between items-center">
-        <h1 className="font-semibold text-xl tracking-tight">James Toone</h1>
-        <button type="button" className="from-sky-400 to-sky-300 bg-gradient-to-br text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-sky-300">
+        <h1 className="font-semibold text-lg sm:text-xl tracking-tight">James Toone</h1>
+        <button
+          type="button"
+          className="text-sm sm:text-base from-sky-400 to-sky-300 bg-gradient-to-br text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-sky-300 shadow-lg shadow-sky-500/25"
+        >
           Contact
         </button>
       </header>
