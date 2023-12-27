@@ -12,21 +12,21 @@ export default function Home() {
       <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 xl:max-w-7xl xl:grid-cols-12 xl:p-12">
         <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
           <div className="relative mb-4 grid items-center xl:mb-0">
-            <Image alt="James Toone" width={96} height={96} className="object-cover object-left-top rounded-full size-20 xl:size-24 bg-zinc-600" src="/me.jpg" />
+            <Image alt="James Toone" width={80} height={80} className="object-cover object-left-top rounded-full size-20 bg-zinc-600" src="/me.jpg" />
           </div>
           <div className="relative grid items-end gap-1 xl:row-span-2 xl:gap-0">
-            <div className="text-balance text-xl font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</div>
-            <div className="text-lg font-medium tracking-tight text-zinc-600">James Toone, Lead Product Designer.</div>
+            <div className="text-balance text-lg font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</div>
+            <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">James Toone, Lead Product Designer.</div>
           </div>
         </div>
         <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
           <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
-            <div className="col-span-3 xl:grid xl:gap-1">
-              <div className="text-lg font-medium tracking-tight text-zinc-600">Title</div>
-              <div className="text-lg font-medium tracking-tight xl:text-xl">Lead Product Designer</div>
+            <div className="col-span-3 -mt-1 space-y-1">
+              <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">Title</div>
+              <div className="text-base sm:text-lg font-medium tracking-tight xl:text-xl">Lead Product Designer</div>
             </div>
             <div className="grid place-content-center">
-              <svg className="size-8 text-zinc-600" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className="size-7 sm:size-8 text-zinc-600" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M4.75 9.75C4.75 8.64543 5.64543 7.75 6.75 7.75H17.25C18.3546 7.75 19.25 8.64543 19.25 9.75V17.25C19.25 18.3546 18.3546 19.25 17.25 19.25H6.75C5.64543 19.25 4.75 18.3546 4.75 17.25V9.75Z"
                   stroke="currentColor"
@@ -45,9 +45,9 @@ export default function Home() {
             </div>
           </div>
           <div className="max-xl:order-3 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
-            <div className="col-span-3 xl:grid xl:gap-0.5">
-              <div className="text-lg font-medium tracking-tight text-zinc-600">Based in</div>
-              <div className="text-lg font-medium tracking-tight xl:text-xl">Brighton, UK</div>
+            <div className="col-span-3 -mt-1 space-y-1">
+              <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">Based in</div>
+              <div className="text-base sm:text-lg font-medium tracking-tight xl:text-xl">Brighton, UK</div>
             </div>
             <div className="grid place-content-center">
               <svg className="size-8 text-zinc-600 xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -136,10 +136,10 @@ export default function Home() {
           </ol>
         </div>
         <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
-          <div>
-            <div className="text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
-            <div className="text-lg xl:text-xl space-y-3 text-zinc-100 text-balance">
-              <p>I specialise in crafting refined, user-focused products with a streamlined UX process.</p>
+          <div className="-mt-1">
+            <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
+            <div className="text-base sm:text-lg xl:text-xl space-y-3 text-zinc-100 text-balance">
+              <p>I specialise in crafting refined, user-focused products, adopting a streamlined UX process.</p>
               <p>I also optimise development workflows to enable teams to build high quality user interfaces which are maintainable.</p>
             </div>
           </div>
