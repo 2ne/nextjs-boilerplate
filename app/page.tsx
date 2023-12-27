@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <div className="max-xl:order-3 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
             <div className="col-span-3 -mt-1 space-y-1">
-              <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">Based in</div>
+              <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">Location</div>
               <div className="text-base sm:text-lg font-medium tracking-tight xl:text-xl">Brighton, UK</div>
             </div>
             <div className="grid place-content-center">
