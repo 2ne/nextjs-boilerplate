@@ -3,8 +3,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12">
+      <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12 flex justify-between items-center">
         <h1 className="font-semibold text-xl tracking-tight">James Toone</h1>
+        <button type="button" className="bg-sky-300 text-zinc-950 rounded-full px-4 py-1.5 font-medium">
+          Contact
+        </button>
       </header>
       <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 xl:max-w-7xl xl:grid-cols-12 xl:p-12">
         <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
