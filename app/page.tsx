@@ -15,6 +15,9 @@ export default function Home() {
       <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 xl:max-w-7xl xl:grid-cols-12 xl:p-12">
         <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
           <div className="relative mb-4 grid items-center xl:mb-0">
+            <div className="absolute -top-1 -left-1 size-3.5 bg-emerald-400 rounded-full border border-zinc-950 ring-1 ring-zinc-50/10">
+              <div className="absolute inset-px bg-gradient-to-br from-emerald-400 to-emerald-300 rounded-full animate-pulse"></div>
+            </div>
             <Image alt="James Toone" width={80} height={80} className="object-cover object-left-top rounded-full size-20 bg-zinc-600 border border-zinc-950 ring-1 ring-zinc-50/10" src="/me.jpg" />
           </div>
           <div className="relative grid items-end gap-1 xl:row-span-2 xl:gap-0">
