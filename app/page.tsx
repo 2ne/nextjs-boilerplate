@@ -2,22 +2,27 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="@container animate-fade-in">
-      <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 py-8 @5xl:max-w-7xl @5xl:grid-cols-12 @5xl:p-12">
-        <div className="relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 @5xl:col-span-4 @5xl:row-span-3 @5xl:grid @5xl:grid-rows-subgrid">
-          <div className="relative mb-4 grid items-center @5xl:mb-0">
-            <Image alt="James Toone" width={80} height={80} className="object-cover object-left-top rounded-full size-20 bg-zinc-600" src="/me.jpg" />
+    <>
+      <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12">
+        <h1 className="font-semibold text-xl tracking-tight">James Toone</h1>
+      </header>
+
+      <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 py-8 xl:max-w-7xl xl:grid-cols-12 xl:p-12">
+        <div className="relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
+          <div className="relative mb-4 grid items-center xl:mb-0">
+            <Image alt="James Toone" width={96} height={96} className="object-cover object-left-top rounded-full size-24 bg-zinc-600" src="/me.jpg" />
           </div>
-          <div className="relative grid items-end gap-1 @5xl:row-span-2 @5xl:gap-0">
-            <div className="text-balance text-xl font-medium tracking-tight @sm:text-2xl @5xl:text-3xl">Creating elegant, intuitive designs with great UX.</div>
-            <div className="text-lg font-medium tracking-tight text-zinc-600 @5xl:text-xl">Working at LoveAdmin</div>
+          <div className="relative grid items-end gap-1 xl:row-span-2 xl:gap-0">
+            <div className="text-balance text-xl font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</div>
+            <div className="text-lg font-medium tracking-tight text-zinc-600">James Toone, Lead Product Designer.</div>
           </div>
         </div>
-        <div className="contents @5xl:col-span-4 @5xl:row-span-3 @5xl:grid @5xl:grid-cols-subgrid @5xl:grid-rows-subgrid">
-          <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 @2xl:pr-0 @5xl:col-span-4 @5xl:grid-cols-subgrid">
-            <div className="col-span-3 @5xl:grid @5xl:gap-1">
-              <div className="text-lg font-medium tracking-tight text-zinc-600 @5xl:text-xl">Title</div>
-              <div className="text-lg font-medium tracking-tight @5xl:text-xl">Lead Product Designer</div>
+
+        <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
+          <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="col-span-3 xl:grid xl:gap-1">
+              <div className="text-lg font-medium tracking-tight text-zinc-600">Title</div>
+              <div className="text-lg font-medium tracking-tight xl:text-xl">Lead Product Designer</div>
             </div>
             <div className="grid place-content-center">
               <svg className="size-8 text-zinc-600" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +43,25 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <ol className="order-1 grid grid-cols-4 gap-3 @5xl:contents">
+          <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="col-span-3 xl:grid xl:gap-0.5">
+              <div className="text-lg font-medium tracking-tight text-zinc-600">Based in</div>
+              <div className="text-lg font-medium tracking-tight xl:text-xl">Brighton, UK</div>
+            </div>
+            <div className="grid place-content-center">
+              <svg className="size-8 text-zinc-600 xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width=".75"
+                  d="M18.25 11C18.25 15 12 19.25 12 19.25C12 19.25 5.75 15 5.75 11C5.75 7.5 8.68629 4.75 12 4.75C15.3137 4.75 18.25 7.5 18.25 11Z"
+                ></path>
+                <circle cx="12" cy="11" r="2.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"></circle>
+              </svg>
+            </div>
+          </div>
+          <ol className="grid grid-cols-4 gap-3 xl:contents">
             <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
               <svg className="size-8" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -110,27 +133,17 @@ export default function Home() {
               </svg>
             </li>
           </ol>
-          <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 @2xl:pr-0 @5xl:col-span-4 @5xl:grid-cols-subgrid">
-            <div className="col-span-3 @5xl:grid @5xl:gap-0.5">
-              <div className="text-lg font-medium tracking-tight text-zinc-600 @5xl:text-xl">Based in</div>
-              <div className="text-lg font-medium tracking-tight @5xl:text-xl">Brighton, UK</div>
-            </div>
-            <div className="grid place-content-center">
-              <svg className="size-8 text-zinc-600 @5xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width=".75"
-                  d="M18.25 11C18.25 15 12 19.25 12 19.25C12 19.25 5.75 15 5.75 11C5.75 7.5 8.68629 4.75 12 4.75C15.3137 4.75 18.25 7.5 18.25 11Z"
-                ></path>
-                <circle cx="12" cy="11" r="2.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"></circle>
-              </svg>
+        </div>
+        <div className="rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
+          <div>
+            <div className="text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
+            <div className="text-lg xl:text-xl space-y-3 text-zinc-100 text-balance">
+              <p>I specialise in crafting refined, user-focused products with a streamlined UX approach.</p>
+              <p>I optimise development workflows to enable teams to build high quality user interfaces which are maintainable.</p>
             </div>
           </div>
         </div>
-        <div className="rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 @5xl:col-span-4 @5xl:row-span-3">This is a portfolio</div>
       </section>
-    </div>
+    </>
   );
 }
