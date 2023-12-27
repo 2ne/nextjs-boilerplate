@@ -8,7 +8,7 @@ export default function Home() {
       </header>
 
       <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 py-8 xl:max-w-7xl xl:grid-cols-12 xl:p-12">
-        <div className="max-xl:-order-1 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
+        <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
           <div className="relative mb-4 grid items-center xl:mb-0">
             <Image alt="James Toone" width={96} height={96} className="object-cover object-left-top rounded-full size-24 bg-zinc-600" src="/me.jpg" />
           </div>
@@ -19,7 +19,7 @@ export default function Home() {
         </div>
 
         <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
-          <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+          <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
             <div className="col-span-3 xl:grid xl:gap-1">
               <div className="text-lg font-medium tracking-tight text-zinc-600">Title</div>
               <div className="text-lg font-medium tracking-tight xl:text-xl">Lead Product Designer</div>
@@ -43,7 +43,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+          <div className="max-xl:order-3 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
             <div className="col-span-3 xl:grid xl:gap-0.5">
               <div className="text-lg font-medium tracking-tight text-zinc-600">Based in</div>
               <div className="text-lg font-medium tracking-tight xl:text-xl">Brighton, UK</div>
@@ -61,7 +61,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <ol className="grid grid-cols-4 gap-3 xl:contents">
+          <ol className="max-xl:order-4 grid grid-cols-4 gap-3 xl:contents">
             <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
               <svg className="size-8" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -134,7 +134,8 @@ export default function Home() {
             </li>
           </ol>
         </div>
-        <div className="max-xl:-order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
+
+        <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
           <div>
             <div className="text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
             <div className="text-lg xl:text-xl space-y-3 text-zinc-100 text-balance">
