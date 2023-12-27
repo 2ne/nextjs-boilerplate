@@ -12,7 +12,13 @@ export default function Home() {
       <section className="mx-auto grid w-full max-w-lg grid-cols-1 gap-3 p-6 xl:max-w-7xl xl:grid-cols-12 xl:p-12">
         <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
           <div className="relative mb-4 grid items-center xl:mb-0">
-            <Image alt="James Toone" width={80} height={80} className="object-cover object-left-top rounded-full size-20 bg-zinc-600" src="/me.jpg" />
+            <Image
+              alt="James Toone"
+              width={80}
+              height={80}
+              className="object-cover object-left-top rounded-full size-20 bg-zinc-600 after:absolute after:inset-0 after:rounded-full border border-zinc-950 ring-1 ring-zinc-50/10"
+              src="/me.jpg"
+            />
           </div>
           <div className="relative grid items-end gap-1 xl:row-span-2 xl:gap-0">
             <div className="text-balance text-lg font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</div>
@@ -138,7 +144,7 @@ export default function Home() {
         <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
           <div className="-mt-1">
             <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
-            <div className="text-base sm:text-lg xl:text-xl space-y-3 text-zinc-100 text-balance">
+            <div className="text-base sm:text-lg space-y-3 text-balance">
               <p>I specialise in crafting refined, user-focused products, adopting a streamlined UX process.</p>
               <p>I also optimise development workflows to enable teams to build high quality user interfaces which are maintainable.</p>
             </div>
