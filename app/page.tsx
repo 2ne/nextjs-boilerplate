@@ -138,7 +138,7 @@ export default function Home() {
           <div>
             <div className="text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
             <div className="text-lg xl:text-xl space-y-3 text-zinc-100 text-balance">
-              <p>I specialise in crafting refined, user-focused products with a streamlined UX approach.</p>
+              <p>I specialise in crafting refined, user-focused products with a streamlined UX process.</p>
               <p>I optimise development workflows to enable teams to build high quality user interfaces which are maintainable.</p>
             </div>
           </div>
