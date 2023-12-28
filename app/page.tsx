@@ -180,14 +180,12 @@ export default function Home() {
     return (
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
         <Title label="work" />
-        <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
-          <div className="relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4">
-            <div className="col-span-3 -mt-1 space-y-1">
-              <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-500">Link</div>
-              <div className="text-base sm:text-lg font-medium tracking-tight xl:text-xl">vinylvisions.co.uk</div>
-            </div>
+        <div className="grid grid-cols-1 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4">
+          <div className="col-span-4 -mt-1 space-y-1 p-3">
+            <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-500">Link</div>
+            <div className="text-base sm:text-lg font-medium tracking-tight xl:text-xl">vinylvisions.co.uk</div>
           </div>
-          <div className="relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-1.5">
+          <div className="xl:col-span-8">
             <Image height={601} width={1370} alt="Vinyl Visions Mockup" src="/VinylVisions.png" className="rounded-[calc(1rem-6px)] border border-zinc-50/10" />
           </div>
         </div>
