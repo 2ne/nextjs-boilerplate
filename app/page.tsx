@@ -5,7 +5,7 @@ export default function Home() {
   const Header: React.FC = () => {
     return (
       <header className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:px-12 flex justify-between items-center">
-        <h1 className="font-semibold text-lg sm:text-2xl tracking-tighter sm:tracking-tight font-serif">
+        <h1 className="font-semibold text-lg sm:text-2xl tracking-tight sm:tracking-normal font-serif">
           jamestoone<span className="text-primary-500">.design</span>
         </h1>
         <button
