@@ -180,6 +180,10 @@ export default function Home() {
     return (
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
         <Title label="work" />
+        <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
+          <div className="relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4"></div>
+          <div className="relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 aspect-video"></div>
+        </div>
       </section>
     );
   };
