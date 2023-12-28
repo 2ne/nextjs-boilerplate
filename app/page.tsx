@@ -6,11 +6,11 @@ export default function Home() {
     return (
       <header className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:px-12 flex justify-between items-center">
         <h1 className="font-semibold text-lg sm:text-2xl tracking-tighter sm:tracking-tight font-serif">
-          jamestoone<span className="bg-gradient-to-b from-emerald-400 to-emerald-300 text-transparent bg-clip-text">.design</span>
+          jamestoone<span className="text-primary-500">.design</span>
         </h1>
         <button
           type="button"
-          className="text-sm sm:text-base from-emerald-400 to-emerald-300 bg-gradient-to-b text-zinc-950 rounded-full px-4 tracking-tight py-1.5 font-semibold border border-emerald-300"
+          className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 tracking-tight py-1.5 font-semibold border border-primary-400"
         >
           Contact
         </button>
@@ -26,7 +26,7 @@ export default function Home() {
     return (
       <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
         <span className="text-zinc-600 mr-0.5">/</span>
-        <span className="bg-gradient-to-b from-emerald-400 to-emerald-300 text-transparent bg-clip-text">{label}</span>
+        <span className="text-primary-500">{label}</span>
       </h2>
     );
   };
@@ -38,7 +38,7 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="h-[calc(theme(size[20])-theme(spacing[1]))] aspect-square relative mb-4 grid items-center xl:mb-0 p-0.5">
-              <div className="animate-[spin_2s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-emerald-300 to-emerald-600 p-0.5"></div>
+              <div className="animate-[spin_2s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500 to-primary-500 p-0.5"></div>
               <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover object-left-top rounded-full bg-zinc-600 border-2 border-zinc-950" src="/me.jpg" />
             </div>
             <div className="relative grid items-end gap-1.5 xl:row-span-2 xl:gap-0">
@@ -192,10 +192,6 @@ export default function Home() {
             </div>
           </div>
           <div className="xl:col-span-8">
-            <Image height={1170} width={2080} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] border border-zinc-50/10" />
-          </div>
-          <div className="xl:col-start-5 xl:col-span-8 grid grid-cols-2 gap-3">
-            <Image height={1170} width={2080} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] border border-zinc-50/10" />
             <Image height={1170} width={2080} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] border border-zinc-50/10" />
           </div>
         </div>
