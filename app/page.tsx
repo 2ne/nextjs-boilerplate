@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Balancer from "react-wrap-balancer";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
             <Image alt="James Toone" width={80} height={80} className="object-cover object-left-top rounded-full size-20 bg-zinc-600 border border-zinc-950 ring-1 ring-zinc-50/10" src="/me.jpg" />
           </div>
           <div className="relative grid items-end gap-1 xl:row-span-2 xl:gap-0">
-            <div className="text-balance text-lg/6 font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</div>
+            <Balancer className="text-lg/6 font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
             <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">James Toone, Lead Product Designer.</div>
           </div>
         </div>
@@ -144,10 +145,10 @@ export default function Home() {
         <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
           <div className="-mt-1">
             <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
-            <div className="text-base sm:text-lg space-y-3 text-balance">
+            <Balancer className="text-base sm:text-lg space-y-3 text-balance">
               <p>I specialise in crafting refined, user-focused products, utilising a streamlined UX process.</p>
               <p>Additionally I enhance development processes to enable teams to build high quality, maintainable user interfaces.</p>
-            </div>
+            </Balancer>
           </div>
         </div>
       </section>
