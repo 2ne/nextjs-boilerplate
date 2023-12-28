@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <>
       <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12 flex justify-between items-center">
-        <h1 className="font-semibold text-lg sm:text-xl tracking-tight">James Toone</h1>
+        <h1 className="font-semibold text-xl sm:text-2xl tracking-tight font-serif">
+          jamestoone<span className="text-emerald-300">.design</span>
+        </h1>
         <button
           type="button"
           className="text-sm sm:text-base from-emerald-400 to-emerald-300 bg-gradient-to-br text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-emerald-300 shadow-lg shadow-lime-600/25"
