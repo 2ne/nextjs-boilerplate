@@ -165,10 +165,10 @@ export default function Home() {
           <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
             <div className="-mt-1">
               <div className="text-base font-medium tracking-tight text-zinc-500 mb-2.5">About</div>
-              <Balancer className="text-base  space-y-3 text-balance">
+              <div className="text-base space-y-3 text-pretty">
                 <p>I lead teams to deliver refined, user focused products while utilising a streamlined UX process.</p>
                 <p>I specialise in design and coding protoypes using intuitive design systems and UI kits, fostering scalable teamwork and sustainable practices.</p>
-              </Balancer>
+              </div>
             </div>
           </div>
         </div>
