@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12 flex justify-between items-center">
-        <h1 className="font-semibold text-xl sm:text-2xl tracking-tight font-serif">
+        <h1 className="font-semibold text-xl sm:text-2xl tracking-tighter sm:tracking-tight font-serif">
           jamestoone<span className="text-emerald-300">.design</span>
         </h1>
         <button
