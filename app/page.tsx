@@ -6,14 +6,17 @@ export default function Home() {
     <>
       <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12 flex justify-between items-center">
         <h1 className="font-semibold text-xl sm:text-2xl tracking-tighter sm:tracking-tight font-serif">
-          jamestoone<span className="text-emerald-300">.design</span>
+          jamestoone<span className=" bg-gradient-to-b from-emerald-400 to-emerald-300 text-transparent bg-clip-text">.design</span>
         </h1>
-        <button type="button" className="text-sm sm:text-base from-emerald-400 to-emerald-300 bg-gradient-to-br text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-emerald-300">
+        <button type="button" className="text-sm sm:text-base sm:text-lg from-emerald-400 to-emerald-300 bg-gradient-to-b text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-emerald-300">
           Contact
         </button>
       </header>
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
-        <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none bg-gradient-to-b from-emerald-300 to-emerald-500 text-transparent bg-clip-text">Info</h2>
+        <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
+          <span className="text-zinc-700 mr-0.5">/</span>
+          <span className="bg-gradient-to-b from-emerald-400 to-emerald-500 text-transparent bg-clip-text">info</span>
+        </h2>
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="relative mb-4 grid items-center xl:mb-0">
@@ -147,15 +150,18 @@ export default function Home() {
             <div className="-mt-1">
               <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
               <Balancer className="text-base sm:text-lg space-y-3 text-balance">
-                <p>I specialise in crafting refined, user-focused products, utilising a streamlined UX process.</p>
-                <p>Additionally I enhance development processes to enable teams to build high quality, maintainable user interfaces.</p>
+                <p>I lead teams to craft refined, user-focused products while utilising a streamlined UX process.</p>
+                <p>I specialise in design and coding protoypes using intuitive design systems and UI kits, fostering scalable teamwork and sustainable practices.</p>
               </Balancer>
             </div>
           </div>
         </div>
       </section>
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
-        <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none bg-gradient-to-b from-emerald-300 to-emerald-500 text-transparent bg-clip-text">Work</h2>
+        <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
+          <span className="text-zinc-700 mr-0.5">/</span>
+          <span className="bg-gradient-to-b from-emerald-400 to-emerald-500 text-transparent bg-clip-text">work</span>
+        </h2>
       </section>
     </>
   );
