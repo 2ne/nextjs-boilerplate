@@ -8,13 +8,13 @@ export default function Home() {
         <h1 className="font-semibold text-xl sm:text-2xl tracking-tighter sm:tracking-tight font-serif">
           jamestoone<span className=" bg-gradient-to-b from-emerald-400 to-emerald-300 text-transparent bg-clip-text">.design</span>
         </h1>
-        <button type="button" className="text-sm sm:text-base sm:text-lg from-emerald-400 to-emerald-300 bg-gradient-to-b text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-emerald-300">
+        <button type="button" className="text-sm sm:text-base from-emerald-400 to-emerald-300 bg-gradient-to-b text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-emerald-300">
           Contact
         </button>
       </header>
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
         <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
-          <span className="text-zinc-700 mr-0.5">/</span>
+          <span className="text-zinc-600 mr-0.5">/</span>
           <span className="bg-gradient-to-b from-emerald-400 to-emerald-500 text-transparent bg-clip-text">info</span>
         </h2>
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
@@ -27,17 +27,17 @@ export default function Home() {
             </div>
             <div className="relative grid items-end gap-1.5 xl:row-span-2 xl:gap-0">
               <Balancer className="text-lg/6 font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
-              <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">James Toone, Lead Product Designer.</div>
+              <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-500">James Toone, Lead Product Designer.</div>
             </div>
           </div>
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
             <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">Title</div>
+                <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-500">Title</div>
                 <div className="text-base sm:text-lg font-medium tracking-tight xl:text-xl">Lead Product Designer</div>
               </div>
               <div className="grid place-content-center">
-                <svg className="size-7 sm:size-8 text-zinc-600" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="size-7 sm:size-8 text-zinc-500 " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M4.75 9.75C4.75 8.64543 5.64543 7.75 6.75 7.75H17.25C18.3546 7.75 19.25 8.64543 19.25 9.75V17.25C19.25 18.3546 18.3546 19.25 17.25 19.25H6.75C5.64543 19.25 4.75 18.3546 4.75 17.25V9.75Z"
                     stroke="currentColor"
@@ -57,11 +57,11 @@ export default function Home() {
             </div>
             <div className="max-xl:order-3 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">Location</div>
+                <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-500">Location</div>
                 <div className="text-base sm:text-lg font-medium tracking-tight xl:text-xl">Brighton, UK</div>
               </div>
               <div className="grid place-content-center">
-                <svg className="size-8 text-zinc-600 xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <svg className="size-8 text-zinc-500  xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
                   <path
                     stroke="currentColor"
                     stroke-linecap="round"
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
             <ol className="max-xl:order-4 grid grid-cols-4 gap-3 xl:contents">
               <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
-                <svg className="size-8" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M9.31 18.25C14.7819 18.25 17.7744 13.4403 17.7744 9.26994C17.7744 9.03682 17.9396 8.83015 18.152 8.73398C18.8803 8.40413 19.8249 7.49943 18.8494 5.97828C18.2031 6.32576 17.6719 6.51562 16.9603 6.74448C15.834 5.47393 13.9495 5.41269 12.7514 6.60761C11.9785 7.37819 11.651 8.52686 11.8907 9.62304C9.49851 9.49618 6.69788 7.73566 5.1875 5.76391C4.39814 7.20632 4.80107 9.05121 6.10822 9.97802C5.63461 9.96302 5.1716 9.82741 4.75807 9.58305V9.62304C4.75807 11.1255 5.75654 12.4191 7.1444 12.7166C6.70672 12.8435 6.24724 12.8622 5.80131 12.771C6.19128 14.0565 7.87974 15.4989 9.15272 15.5245C8.09887 16.4026 6.79761 16.8795 5.45806 16.8782C5.22126 16.8776 4.98504 16.8626 4.75 16.8326C6.11076 17.7588 7.69359 18.25 9.31 18.2475V18.25Z"
                     stroke="currentColor"
@@ -86,7 +86,7 @@ export default function Home() {
                 </svg>
               </li>
               <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
-                <svg className="size-8" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
                     stroke="currentColor"
@@ -110,7 +110,7 @@ export default function Home() {
                 </svg>
               </li>
               <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
-                <svg className="size-8" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M19.25 12C19.25 16.0041 16.0041 19.25 12 19.25C7.99594 19.25 4.75 16.0041 4.75 12C4.75 7.99594 7.99594 4.75 12 4.75C16.0041 4.75 19.25 7.99594 19.25 12Z"
                     stroke="currentColor"
@@ -124,7 +124,7 @@ export default function Home() {
                 </svg>
               </li>
               <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
-                <svg className="size-8" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
                     stroke="currentColor"
@@ -148,7 +148,7 @@ export default function Home() {
           </div>
           <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
             <div className="-mt-1">
-              <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600 mb-2.5">About</div>
+              <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-500 mb-2.5">About</div>
               <Balancer className="text-base sm:text-lg space-y-3 text-balance">
                 <p>I lead teams to craft refined, user-focused products while utilising a streamlined UX process.</p>
                 <p>I specialise in design and coding protoypes using intuitive design systems and UI kits, fostering scalable teamwork and sustainable practices.</p>
@@ -159,7 +159,7 @@ export default function Home() {
       </section>
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
         <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
-          <span className="text-zinc-700 mr-0.5">/</span>
+          <span className="text-zinc-600 mr-0.5">/</span>
           <span className="bg-gradient-to-b from-emerald-400 to-emerald-500 text-transparent bg-clip-text">work</span>
         </h2>
       </section>
