@@ -23,10 +23,15 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="relative mb-4 grid items-center xl:mb-0">
-              <div className="absolute -top-1 -left-1 size-3.5 bg-zinc-950 rounded-full ring-1 ring-zinc-50/10">
-                <div className="absolute inset-px bg-gradient-to-br from-emerald-400 to-emerald-300 rounded-full animate-pulse"></div>
+              <div className="size-20 rounded-full ring-2 ring-emerald-400">
+                <Image
+                  alt="James Toone"
+                  width={80}
+                  height={80}
+                  className="size-20 object-cover object-left-top rounded-full bg-zinc-600 border border-zinc-950 ring-[0.125rem] ring-zinc-50/10"
+                  src="/me.jpg"
+                />
               </div>
-              <Image alt="James Toone" width={80} height={80} className="object-cover object-left-top rounded-full size-20 bg-zinc-600 border border-zinc-950 ring-1 ring-zinc-50/10" src="/me.jpg" />
             </div>
             <div className="relative grid items-end gap-1.5 xl:row-span-2 xl:gap-0">
               <Balancer className="text-lg/6 font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
