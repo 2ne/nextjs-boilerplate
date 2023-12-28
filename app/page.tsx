@@ -2,11 +2,11 @@ import Image from "next/image";
 import Balancer from "react-wrap-balancer";
 
 export default function Home() {
-  return (
-    <>
+  const Header: React.FC = () => {
+    return (
       <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12 flex justify-between items-center">
         <h1 className="font-semibold text-xl sm:text-2xl tracking-tighter sm:tracking-tight font-serif">
-          jamestoone<span className=" bg-gradient-to-b from-emerald-400 to-emerald-300 text-transparent bg-clip-text">.design</span>
+          jamestoone<span className="bg-gradient-to-b from-emerald-400 to-emerald-300 text-transparent bg-clip-text">.design</span>
         </h1>
         <button
           type="button"
@@ -15,6 +15,11 @@ export default function Home() {
           Contact
         </button>
       </header>
+    );
+  };
+
+  const Info: React.FC = () => {
+    return (
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
         <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
           <span className="text-zinc-600 mr-0.5">/</span>
@@ -158,12 +163,25 @@ export default function Home() {
           </div>
         </div>
       </section>
+    );
+  };
+
+  const Work: React.FC = () => {
+    return (
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
         <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
           <span className="text-zinc-600 mr-0.5">/</span>
           <span className="bg-gradient-to-b from-emerald-400 to-emerald-500 text-transparent bg-clip-text">work</span>
         </h2>
       </section>
+    );
+  };
+
+  return (
+    <>
+      <Header />
+      <Info />
+      <Work />
     </>
   );
 }
