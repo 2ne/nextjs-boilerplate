@@ -4,7 +4,7 @@ import Balancer from "react-wrap-balancer";
 export default function Home() {
   const Header: React.FC = () => {
     return (
-      <header className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 xl:px-12 flex justify-between items-center">
+      <header className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:px-12 flex justify-between items-center">
         <h1 className="font-semibold text-xl sm:text-2xl tracking-tighter sm:tracking-tight font-serif">
           jamestoone<span className="bg-gradient-to-b from-emerald-400 to-emerald-300 text-transparent bg-clip-text">.design</span>
         </h1>
@@ -33,7 +33,7 @@ export default function Home() {
 
   const Info: React.FC = () => {
     return (
-      <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
+      <section className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12">
         <Title label="info" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
@@ -178,7 +178,7 @@ export default function Home() {
 
   const Work: React.FC = () => {
     return (
-      <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
+      <section className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12">
         <Title label="work" />
         <div className="grid grid-cols-1 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4">
           <div className="col-span-4 -mt-1 space-y-1 p-3">
@@ -186,7 +186,7 @@ export default function Home() {
             <div className="text-base sm:text-lg font-medium tracking-tight xl:text-xl">vinylvisions.co.uk</div>
           </div>
           <div className="xl:col-span-8">
-            <Image height={601} width={1370} alt="Vinyl Visions Mockup" src="/VinylVisions.png" className="rounded-[calc(1rem-6px)] border border-zinc-50/10" />
+            <Image height={1170} width={2080} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(1rem-6px)] border border-zinc-50/10" />
           </div>
         </div>
       </section>
@@ -195,7 +195,7 @@ export default function Home() {
 
   const Contact: React.FC = () => {
     return (
-      <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
+      <section className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12">
         <Title label="contact" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
