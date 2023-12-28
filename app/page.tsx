@@ -150,7 +150,7 @@ export default function Home() {
             <div className="-mt-1">
               <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-500 mb-2.5">About</div>
               <Balancer className="text-base sm:text-lg space-y-3 text-balance">
-                <p>I lead teams to craft refined, user-focused products while utilising a streamlined UX process.</p>
+                <p>I lead teams to deliver refined, user focused products while utilising a streamlined UX process.</p>
                 <p>I specialise in design and coding protoypes using intuitive design systems and UI kits, fostering scalable teamwork and sustainable practices.</p>
               </Balancer>
             </div>
