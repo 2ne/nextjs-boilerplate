@@ -20,7 +20,7 @@ export default function Home() {
             </div>
             <Image alt="James Toone" width={80} height={80} className="object-cover object-left-top rounded-full size-20 bg-zinc-600 border border-zinc-950 ring-1 ring-zinc-50/10" src="/me.jpg" />
           </div>
-          <div className="relative grid items-end gap-1 xl:row-span-2 xl:gap-0">
+          <div className="relative grid items-end gap-1.5 xl:row-span-2 xl:gap-0">
             <Balancer className="text-lg/6 font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
             <div className="text-base sm:text-lg font-medium tracking-tight text-zinc-600">James Toone, Lead Product Designer.</div>
           </div>
