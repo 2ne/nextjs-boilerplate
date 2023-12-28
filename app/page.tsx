@@ -8,10 +8,7 @@ export default function Home() {
         <h1 className="font-semibold text-xl sm:text-2xl tracking-tighter sm:tracking-tight font-serif">
           jamestoone<span className="text-emerald-300">.design</span>
         </h1>
-        <button
-          type="button"
-          className="text-sm sm:text-base from-emerald-400 to-emerald-300 bg-gradient-to-br text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-emerald-300 shadow-lg shadow-lime-600/25"
-        >
+        <button type="button" className="text-sm sm:text-base from-emerald-400 to-emerald-300 bg-gradient-to-br text-zinc-950 rounded-full px-4 py-1.5 font-medium border border-emerald-300">
           Contact
         </button>
       </header>
