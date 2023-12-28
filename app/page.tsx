@@ -18,13 +18,23 @@ export default function Home() {
     );
   };
 
+  interface TitleProps {
+    label: string;
+  }
+
+  const Title: React.FC<TitleProps> = ({ label }) => {
+    return (
+      <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
+        <span className="text-zinc-600 mr-0.5">/</span>
+        <span className="bg-gradient-to-b from-emerald-400 to-emerald-300 text-transparent bg-clip-text">{label}</span>
+      </h2>
+    );
+  };
+
   const Info: React.FC = () => {
     return (
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
-        <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
-          <span className="text-zinc-600 mr-0.5">/</span>
-          <span className="bg-gradient-to-b from-emerald-400 to-emerald-500 text-transparent bg-clip-text">info</span>
-        </h2>
+        <Title label="info" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="size-20 relative mb-4 grid items-center xl:mb-0 p-0.5">
@@ -169,10 +179,7 @@ export default function Home() {
   const Work: React.FC = () => {
     return (
       <section className="mx-auto w-full max-w-lg xl:max-w-7xl p-6 pt-3 xl:p-12">
-        <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
-          <span className="text-zinc-600 mr-0.5">/</span>
-          <span className="bg-gradient-to-b from-emerald-400 to-emerald-500 text-transparent bg-clip-text">work</span>
-        </h2>
+        <Title label="work" />
       </section>
     );
   };
