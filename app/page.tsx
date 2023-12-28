@@ -181,9 +181,15 @@ export default function Home() {
       <section className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12">
         <Title label="work" />
         <div className="grid grid-cols-1 gap-y-3 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4">
-          <div className="col-span-4 -mt-1 space-y-1 p-3">
-            <div className="text-base font-medium tracking-tight text-zinc-500">Link</div>
-            <div className="text-base font-medium tracking-tight xl:text-lg">vinylvisions.co.uk</div>
+          <div className="col-span-4 -mt-1 p-3 space-y-9">
+            <div className="space-y-1">
+              <div className="text-base font-medium tracking-tight text-zinc-500">Project</div>
+              <div className="text-base font-medium tracking-tight xl:text-lg">Vinyl Visions</div>
+            </div>
+            <div className="space-y-1">
+              <div className="text-base font-medium tracking-tight text-zinc-500">Link</div>
+              <div className="text-base font-medium tracking-tight xl:text-lg">www.vinylvisions.co.uk</div>
+            </div>
           </div>
           <div className="xl:col-span-8">
             <Image height={1170} width={2080} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] border border-zinc-50/10" />
