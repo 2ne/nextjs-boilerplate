@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <div className="relative grid items-end gap-1.5 xl:row-span-2 xl:gap-0">
               <Balancer className="text-lg/6 font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
-              <div className="text-base font-medium tracking-tight text-zinc-500">James Toone, Lead Product Designer.</div>
+              <div className="text-base font-medium tracking-tight text-zinc-500">James Toone, Lead Product Designer</div>
             </div>
           </div>
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
