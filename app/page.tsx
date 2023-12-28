@@ -187,8 +187,8 @@ export default function Home() {
               <div className="text-base sm:text-lg font-medium tracking-tight xl:text-xl">vinylvisions.co.uk</div>
             </div>
           </div>
-          <div className="relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8">
-            <Image height={601} width={1370} alt="Vinyl Visions Mockup" src="/VinylVisions.png" />
+          <div className="relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-1.5">
+            <Image height={601} width={1370} alt="Vinyl Visions Mockup" src="/VinylVisions.png" className="rounded-[calc(1rem-6px)] border border-zinc-50/10" />
           </div>
         </div>
       </section>
