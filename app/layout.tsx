@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`bg-zinc-950 text-zinc-50 min-h-screen ${sans.variable} ${serif.variable}`}>
+    <html lang="en" className={`bg-zinc-950 text-zinc-50 min-h-screen selection:bg-zinc-500/25 ${sans.variable} ${serif.variable}`}>
       <body className={`font-sans`}>{children}</body>
     </html>
   );
