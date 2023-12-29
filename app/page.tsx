@@ -225,7 +225,7 @@ export default function Home() {
 
   const Contact: React.FC<ContactProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12 min-h-screen ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12 min-h-[90vh] ${className ? className : ""}`}>
         <Title label="contact" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
