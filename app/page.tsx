@@ -410,7 +410,7 @@ export default function Home() {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="xl:space-y-6">
       <Header />
       <Info className="fade-in-out-scroll" />
       <Work className="fade-in-out-scroll" />
