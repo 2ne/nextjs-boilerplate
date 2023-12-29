@@ -10,7 +10,7 @@ export default function Home() {
         </h1>
         <button
           type="button"
-          className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 -tracking-200 py-1.5 font-semibold border border-primary-400"
+          className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 -tracking-100 py-1.5 font-semibold border border-primary-400"
         >
           Contact
         </button>
@@ -373,7 +373,7 @@ export default function Home() {
               <div className="mt-8 flex justify-end">
                 <button
                   type="submit"
-                  className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 -tracking-200 py-1.5 font-semibold border border-primary-400"
+                  className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 -tracking-100 py-1.5 font-semibold border border-primary-400"
                 >
                   Send message
                 </button>
