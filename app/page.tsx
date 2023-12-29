@@ -190,7 +190,7 @@ export default function Home() {
             <div className="text-base font-medium -tracking-100 text-zinc-500">Project</div>
             <div className="text-base font-medium -tracking-100">Vinyl Visions</div>
           </div>
-          <div className="space-y-0.5">
+          <div className="space-y-0.5 max-xl:hidden">
             <div className="text-base font-medium -tracking-100 text-zinc-500">Link</div>
             <div className="text-base font-medium -tracking-100">www.vinylvisions.co.uk</div>
           </div>
