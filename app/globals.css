@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@supports (animation-timeline: view()) {
+  .fade-in-out-scroll {
+    animation: fade-in-out ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 15% exit 95%;
+    opacity: 0;
+    filter: grayscale(100%) blur(4px);
+    transform: scale(0.985);
+    will-change: opacity, filter, transform;
+  }
+  @keyframes fade-in-out {
+    0,
+    100% {
+      opacity: 0;
+      filter: grayscale(100%) blur(4px);
+      transform: scale(0.985);
+    }
+    5%,
+    95% {
+      filter: grayscale(0%) blur(0);
+    }
+    15%,
+    85% {
+      opacity: 1;
+      filter: grayscale(0%) blur(0);
+      transform: scale(1);
+    }
+  }
+}

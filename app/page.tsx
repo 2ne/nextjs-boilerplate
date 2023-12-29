@@ -20,20 +20,25 @@ export default function Home() {
 
   interface TitleProps {
     label: string;
+    className?: string;
   }
 
-  const Title: React.FC<TitleProps> = ({ label }) => {
+  const Title: React.FC<TitleProps> = ({ label, className }) => {
     return (
-      <h2 className="font-serif text-4xl sm:text-6xl my-8 leading-none">
+      <h2 className={`font-serif text-4xl sm:text-6xl my-8 leading-none ${className ? className : ""}`}>
         <span className="text-zinc-600 mr-0.5">/</span>
         <span className="text-primary-500">{label}</span>
       </h2>
     );
   };
 
-  const Info: React.FC = () => {
+  interface InfoProps {
+    className?: string;
+  }
+
+  const Info: React.FC<InfoProps> = ({ className }) => {
     return (
-      <section className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12">
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl my-6 p-6 xl:p-12 ${className ? className : ""}`}>
         <Title label="info" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
@@ -179,7 +184,7 @@ export default function Home() {
 
   const VinylVisions: React.FC = () => {
     return (
-      <div className="grid grid-cols-1 gap-y-3 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4">
+      <div className="grid grid-cols-1 gap-y-3 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 fade-in-out-scroll">
         <div className="col-span-4 -mt-1 p-3 space-y-8">
           <div className="space-y-0.5">
             <div className="text-base font-medium -tracking-200 text-zinc-500">Project</div>
@@ -197,9 +202,13 @@ export default function Home() {
     );
   };
 
-  const Work: React.FC = () => {
+  interface WorkProps {
+    className?: string;
+  }
+
+  const Work: React.FC<WorkProps> = ({ className }) => {
     return (
-      <section className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12">
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12 ${className ? className : ""}`}>
         <Title label="work" />
         <div className="space-y-10">
           <VinylVisions />
@@ -210,9 +219,13 @@ export default function Home() {
     );
   };
 
-  const Contact: React.FC = () => {
+  interface ContactProps {
+    className?: string;
+  }
+
+  const Contact: React.FC<ContactProps> = ({ className }) => {
     return (
-      <section className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12">
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12 min-h-screen ${className ? className : ""}`}>
         <Title label="contact" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
@@ -399,9 +412,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Info />
-      <Work />
-      <Contact />
+      <Info className="fade-in-out-scroll" />
+      <Work className="fade-in-out-scroll" />
+      <Contact className="fade-in-out-scroll" />
     </>
   );
 }

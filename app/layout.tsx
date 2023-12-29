@@ -17,11 +17,12 @@ const serif = DM_Serif_Display({
 export const metadata: Metadata = {
   title: "James Toone",
   description: "Portfolio",
+  colorScheme: "dark",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`bg-zinc-950 text-zinc-50 min-h-screen selection:bg-zinc-500/25 ${sans.variable} ${serif.variable}`}>
+    <html lang="en" className={`bg-zinc-950 text-zinc-50 min-h-screen selection:bg-zinc-500/25 [color-scheme:dark] ${sans.variable} ${serif.variable}`}>
       <body className={`font-sans`}>{children}</body>
     </html>
   );
