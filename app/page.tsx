@@ -46,9 +46,13 @@ export default function Home() {
               <div className="animate-[spin_2s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500 to-primary-500 p-0.5"></div>
               <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover object-left-top rounded-full bg-zinc-600 border-2 border-zinc-950" src="/me.jpg" />
             </div>
-            <div className="relative grid items-end gap-1.5 xl:row-span-2 xl:gap-0">
-              <Balancer className="text-lg/6 font-medium -tracking-200 sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
-              <div className="text-base font-medium -tracking-100 text-zinc-500">James Toone, Lead Product Designer</div>
+            <div className="relative grid items-end gap-3 xl:row-span-2 xl:gap-0">
+              <Balancer className="font-medium -tracking-200 text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
+              <div className="max-xl:hidden text-base font-medium -tracking-100 text-zinc-500">James Toone, Lead Product Designer</div>
+              <div className="xl:hidden text-base font-medium -tracking-100 text-zinc-500">
+                <div>James Toone, Lead Product Designer</div>
+                <div>Based in Brighton, UK</div>
+              </div>
             </div>
           </div>
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
@@ -76,7 +80,7 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="max-xl:hidden grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-100 text-zinc-500">Location</div>
                 <div className="text-base font-medium -tracking-100 xl:text-lg">Brighton, UK</div>
