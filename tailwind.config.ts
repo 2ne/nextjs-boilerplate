@@ -6,6 +6,15 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const config: Config = {
   content: ["./pages/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}", "./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
+    letterSpacing: {
+      "negative-300": "-.05em",
+      "negative-200": "-.025em",
+      "negative-100": "-.0125em",
+      normal: "0",
+      100: ".0125em",
+      200: ".025em",
+      300: ".05em",
+    },
     extend: {
       colors: {
         primary: {

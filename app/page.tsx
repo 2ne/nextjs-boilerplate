@@ -5,12 +5,12 @@ export default function Home() {
   const Header: React.FC = () => {
     return (
       <header className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:px-12 flex justify-between items-center">
-        <h1 className="font-semibold text-lg sm:text-2xl tracking-tighter sm:tracking-tight font-serif">
+        <h1 className="font-semibold text-lg sm:text-2xl -tracking-200 sm:-tracking-100 font-serif">
           jamestoone<span className="text-primary-500">.design</span>
         </h1>
         <button
           type="button"
-          className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 tracking-tight py-1.5 font-semibold border border-primary-400"
+          className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 -tracking-200 py-1.5 font-semibold border border-primary-400"
         >
           Contact
         </button>
@@ -42,15 +42,15 @@ export default function Home() {
               <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover object-left-top rounded-full bg-zinc-600 border-2 border-zinc-950" src="/me.jpg" />
             </div>
             <div className="relative grid items-end gap-1.5 xl:row-span-2 xl:gap-0">
-              <Balancer className="text-lg/6 font-medium tracking-tight sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
-              <div className="text-base font-medium tracking-tight text-zinc-500">James Toone, Lead Product Designer</div>
+              <Balancer className="text-lg/6 font-medium -tracking-200 sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
+              <div className="text-base font-medium -tracking-200 text-zinc-500">James Toone, Lead Product Designer</div>
             </div>
           </div>
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
             <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base font-medium tracking-tight text-zinc-500">Title</div>
-                <div className="text-base font-medium tracking-tight xl:text-lg">Lead Product Designer</div>
+                <div className="text-base font-medium -tracking-200 text-zinc-500">Title</div>
+                <div className="text-base font-medium -tracking-200 xl:text-lg">Lead Product Designer</div>
               </div>
               <div className="grid place-content-center">
                 <svg className="size-7 sm:size-8 text-zinc-500 " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,8 +73,8 @@ export default function Home() {
             </div>
             <div className="max-xl:order-3 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base font-medium tracking-tight text-zinc-500">Location</div>
-                <div className="text-base font-medium tracking-tight xl:text-lg">Brighton, UK</div>
+                <div className="text-base font-medium -tracking-200 text-zinc-500">Location</div>
+                <div className="text-base font-medium -tracking-200 xl:text-lg">Brighton, UK</div>
               </div>
               <div className="grid place-content-center">
                 <svg className="size-8 text-zinc-500  xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -164,7 +164,7 @@ export default function Home() {
           </div>
           <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
             <div className="-mt-1">
-              <div className="text-base font-medium tracking-tight text-zinc-500 mb-2.5">About</div>
+              <div className="text-base font-medium -tracking-200 text-zinc-500 mb-2.5">About</div>
               <div className="text-base space-y-3 text-pretty">
                 <p>I lead teams to deliver refined, user focused products while utilising a streamlined UX process.</p>
                 <p>I specialise in design and coding protoypes using intuitive design systems and UI kits, fostering scalable teamwork and sustainable practices.</p>
@@ -183,12 +183,12 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-y-3 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4">
           <div className="col-span-4 -mt-1 p-3 space-y-8">
             <div className="space-y-0.5">
-              <div className="text-base font-medium tracking-tight text-zinc-500">Project</div>
-              <div className="text-base font-medium tracking-tight">Vinyl Visions</div>
+              <div className="text-base font-medium -tracking-200 text-zinc-500">Project</div>
+              <div className="text-base font-medium -tracking-200">Vinyl Visions</div>
             </div>
             <div className="space-y-0.5">
-              <div className="text-base font-medium tracking-tight text-zinc-500">Link</div>
-              <div className="text-base font-medium tracking-tight">www.vinylvisions.co.uk</div>
+              <div className="text-base font-medium -tracking-200 text-zinc-500">Link</div>
+              <div className="text-base font-medium -tracking-200">www.vinylvisions.co.uk</div>
             </div>
           </div>
           <div className="xl:col-span-8">
@@ -207,8 +207,8 @@ export default function Home() {
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
             <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base font-medium tracking-tight text-zinc-500">Email</div>
-                <div className="text-base font-medium tracking-tight xl:text-lg">jamestoone@me.com</div>
+                <div className="text-base font-medium -tracking-200 text-zinc-500">Email</div>
+                <div className="text-base font-medium -tracking-200 xl:text-lg">jamestoone@me.com</div>
               </div>
               <div className="grid place-content-center">
                 <svg className="size-7 sm:size-8 text-zinc-500 " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -225,8 +225,8 @@ export default function Home() {
             </div>
             <div className="max-xl:order-3 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base font-medium tracking-tight text-zinc-500">Location</div>
-                <div className="text-base font-medium tracking-tight xl:text-lg">Brighton, UK</div>
+                <div className="text-base font-medium -tracking-200 text-zinc-500">Location</div>
+                <div className="text-base font-medium -tracking-200 xl:text-lg">Brighton, UK</div>
               </div>
               <div className="grid place-content-center">
                 <svg className="size-8 text-zinc-500  xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
