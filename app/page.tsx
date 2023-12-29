@@ -171,14 +171,16 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
-            <div className="-mt-1">
-              <div className="text-base font-medium -tracking-100 text-zinc-500 mb-2.5">Introduction</div>
-              <div className="text-base space-y-3 text-pretty">
-                <p>I lead teams to deliver refined, user focused products while utilising a streamlined UX process.</p>
-                <p>I find the real problems users have and craft elegant, clean solutions across all devices.</p>
-                <p>I specialise in designing and coding rapid prototypes using intuitive design components which promotes sustainable, efficient development practices.</p>
+          <div className="relative max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
+            <div className="max-xl:-mt-1">
+              <div className="xl:hidden text-base font-medium -tracking-100 text-zinc-500 mb-2.5">Introduction</div>
+              <span className="max-xl:hidden absolute top-[-1.95rem] left-0.5 text-primary-500 text-[7.5rem] leading-none">&ldquo;</span>
+              <div className="xl:pl-0.5 text-base space-y-3 text-pretty">
+                <p>I have a proven track record of leading teams to deliver user-focused products using an efficient UX process.</p>
+                <p>I can discern users&apos; core issues and provide elegant solutions that work seamlessly across all devices.</p>
+                <p>I specialise in designing and coding rapid prototypes using intuitive design components, facilitating fast, iterative development while promoting sustainable practices.</p>
               </div>
+              <span className="max-xl:hidden absolute bottom-[-5.25rem] right-0.5 text-primary-500 text-[7.5rem] leading-none">&rdquo;</span>
             </div>
           </div>
         </div>
