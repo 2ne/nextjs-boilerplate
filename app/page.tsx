@@ -25,7 +25,7 @@ export default function Home() {
 
   const Title: React.FC<TitleProps> = ({ label, className }) => {
     return (
-      <h2 className={`font-serif text-4xl sm:text-6xl my-8 leading-none ${className ? className : ""}`}>
+      <h2 className={`font-serif text-4xl sm:text-6xl my-4 xl:my-8 leading-none ${className ? className : ""}`}>
         <span className="text-zinc-600 mr-0.5">/</span>
         <span className="text-primary-500">{label}</span>
       </h2>
