@@ -205,7 +205,7 @@ export default function Home() {
         <Title label="contact" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
-            <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-200 text-zinc-500">Email</div>
                 <div className="text-base font-medium -tracking-200 xl:text-lg">jamestoone@me.com</div>
@@ -223,25 +223,7 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="max-xl:order-3 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
-              <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base font-medium -tracking-200 text-zinc-500">Location</div>
-                <div className="text-base font-medium -tracking-200 xl:text-lg">Brighton, UK</div>
-              </div>
-              <div className="grid place-content-center">
-                <svg className="size-8 text-zinc-500  xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width=".75"
-                    d="M18.25 11C18.25 15 12 19.25 12 19.25C12 19.25 5.75 15 5.75 11C5.75 7.5 8.68629 4.75 12 4.75C15.3137 4.75 18.25 7.5 18.25 11Z"
-                  ></path>
-                  <circle cx="12" cy="11" r="2.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"></circle>
-                </svg>
-              </div>
-            </div>
-            <ol className="max-xl:order-4 grid grid-cols-4 gap-3 xl:contents">
+            <ol className="grid grid-cols-4 gap-3 xl:contents">
               <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -314,7 +296,90 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <div className="row-span-3 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-1.5"></div>
+          <div className="row-span-3 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-6">
+            <form action="#" method="POST" className="">
+              <div className="grid grid-cols-1 gap-x-8 gap-y-6 xl:grid-cols-2">
+                <div>
+                  <label htmlFor="first-name" className="block text-base font-medium -tracking-200">
+                    First name
+                  </label>
+                  <div className="mt-2.5">
+                    <input
+                      type="text"
+                      name="first-name"
+                      id="first-name"
+                      autoComplete="given-name"
+                      className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="last-name" className="block text-base font-medium -tracking-200">
+                    Last name
+                  </label>
+                  <div className="mt-2.5">
+                    <input
+                      type="text"
+                      name="last-name"
+                      id="last-name"
+                      autoComplete="family-name"
+                      className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="email" className="block text-base font-medium -tracking-200">
+                    Email
+                  </label>
+                  <div className="mt-2.5">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      autoComplete="email"
+                      className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="phone-number" className="block text-base font-medium -tracking-200">
+                    Phone number
+                  </label>
+                  <div className="mt-2.5">
+                    <input
+                      type="tel"
+                      name="phone-number"
+                      id="phone-number"
+                      autoComplete="tel"
+                      className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                    />
+                  </div>
+                </div>
+                <div className="xl:col-span-2">
+                  <label htmlFor="message" className="block text-base font-medium -tracking-200">
+                    Message
+                  </label>
+                  <div className="mt-2.5">
+                    <textarea
+                      name="message"
+                      id="message"
+                      rows={4}
+                      className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      defaultValue={""}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="mt-8 flex justify-end">
+                <button
+                  type="submit"
+                  className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 -tracking-200 py-1.5 font-semibold border border-primary-400"
+                >
+                  Send message
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
     );

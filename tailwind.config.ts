@@ -31,7 +31,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("@tailwindcss/container-queries")],
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/container-queries")],
 };
 
 export default config;
