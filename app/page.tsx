@@ -210,7 +210,7 @@ export default function Home() {
     return (
       <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12 ${className ? className : ""}`}>
         <Title label="work" />
-        <div className="space-y-10">
+        <div className="space-y-3 xl:space-y-10">
           <VinylVisions />
           <VinylVisions />
           <VinylVisions />
