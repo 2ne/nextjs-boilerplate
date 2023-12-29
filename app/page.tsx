@@ -49,7 +49,7 @@ export default function Home() {
             <div className="relative grid items-end gap-3 xl:row-span-2 xl:gap-0">
               <Balancer className="font-medium -tracking-200 text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
               <div className="max-xl:hidden text-base font-medium -tracking-100 text-zinc-500">James Toone, Lead Product Designer</div>
-              <div className="xl:hidden text-base font-medium -tracking-100 text-zinc-500">
+              <div className="xl:hidden space-y-px text-base font-medium -tracking-100 text-zinc-500">
                 <div>James Toone, Lead Product Designer</div>
                 <div>Based in Brighton, UK</div>
               </div>
@@ -231,7 +231,7 @@ export default function Home() {
 
   const Contact: React.FC<ContactProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12 min-h-[100svh] ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12 xl:min-h-screen ${className ? className : ""}`}>
         <Title label="contact" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
