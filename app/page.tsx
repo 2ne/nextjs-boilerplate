@@ -39,7 +39,7 @@ export default function Home() {
   const Info: React.FC<InfoProps> = ({ className }) => {
     return (
       <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:p-12 ${className ? className : ""}`}>
-        <Title label="info" className="mt-0" />
+        <Title label="info" className="max-xl:mt-0" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="h-[calc(theme(size[20])-theme(spacing[1]))] aspect-square relative mb-4 grid items-center xl:mb-0 p-0.5">
