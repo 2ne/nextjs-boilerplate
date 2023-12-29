@@ -24,7 +24,7 @@ export default function Home() {
 
   const Title: React.FC<TitleProps> = ({ label }) => {
     return (
-      <h2 className="font-serif text-4xl sm:text-6xl my-6 leading-none">
+      <h2 className="font-serif text-4xl sm:text-6xl my-8 leading-none">
         <span className="text-zinc-600 mr-0.5">/</span>
         <span className="text-primary-500">{label}</span>
       </h2>
@@ -47,7 +47,7 @@ export default function Home() {
             </div>
           </div>
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
-            <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="hidden xl:grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-200 text-zinc-500">Title</div>
                 <div className="text-base font-medium -tracking-200 xl:text-lg">Lead Product Designer</div>
@@ -71,7 +71,7 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="max-xl:order-3 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-200 text-zinc-500">Location</div>
                 <div className="text-base font-medium -tracking-200 xl:text-lg">Brighton, UK</div>
@@ -89,7 +89,7 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <ol className="max-xl:order-4 grid grid-cols-4 gap-3 xl:contents">
+            <ol className="hidden xl:contents">
               <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -164,10 +164,11 @@ export default function Home() {
           </div>
           <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
             <div className="-mt-1">
-              <div className="text-base font-medium -tracking-200 text-zinc-500 mb-2.5">About</div>
+              <div className="text-base font-medium -tracking-200 text-zinc-500 mb-2.5">Introduction</div>
               <div className="text-base space-y-3 text-pretty">
                 <p>I lead teams to deliver refined, user focused products while utilising a streamlined UX process.</p>
-                <p>I specialise in design and coding protoypes using intuitive design systems and UI kits, fostering scalable teamwork and sustainable practices.</p>
+                <p>I find the real problems users have and craft elegant, clean solutions across all devices.</p>
+                <p>I specialise in designing and coding rapid prototypes using intuitive design components which promotes sustainable, efficient development practices.</p>
               </div>
             </div>
           </div>
@@ -176,24 +177,34 @@ export default function Home() {
     );
   };
 
+  const VinylVisions: React.FC = () => {
+    return (
+      <div className="grid grid-cols-1 gap-y-3 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4">
+        <div className="col-span-4 -mt-1 p-3 space-y-8">
+          <div className="space-y-0.5">
+            <div className="text-base font-medium -tracking-200 text-zinc-500">Project</div>
+            <div className="text-base font-medium -tracking-200">Vinyl Visions</div>
+          </div>
+          <div className="space-y-0.5">
+            <div className="text-base font-medium -tracking-200 text-zinc-500">Link</div>
+            <div className="text-base font-medium -tracking-200">www.vinylvisions.co.uk</div>
+          </div>
+        </div>
+        <div className="xl:col-span-8">
+          <Image height={1170} width={2080} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] border border-zinc-50/10" />
+        </div>
+      </div>
+    );
+  };
+
   const Work: React.FC = () => {
     return (
       <section className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12">
         <Title label="work" />
-        <div className="grid grid-cols-1 gap-y-3 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4">
-          <div className="col-span-4 -mt-1 p-3 space-y-8">
-            <div className="space-y-0.5">
-              <div className="text-base font-medium -tracking-200 text-zinc-500">Project</div>
-              <div className="text-base font-medium -tracking-200">Vinyl Visions</div>
-            </div>
-            <div className="space-y-0.5">
-              <div className="text-base font-medium -tracking-200 text-zinc-500">Link</div>
-              <div className="text-base font-medium -tracking-200">www.vinylvisions.co.uk</div>
-            </div>
-          </div>
-          <div className="xl:col-span-8">
-            <Image height={1170} width={2080} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] border border-zinc-50/10" />
-          </div>
+        <div className="space-y-10">
+          <VinylVisions />
+          <VinylVisions />
+          <VinylVisions />
         </div>
       </section>
     );
@@ -296,7 +307,7 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <div className="row-span-3 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-6">
+          <div className="hidden xl:block row-span-3 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-6">
             <form action="#" method="POST" className="">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 xl:grid-cols-2">
                 <div>
