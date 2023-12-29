@@ -9,9 +9,9 @@ const config: Config = {
     letterSpacing: {
       "negative-300": "-.05em",
       "negative-200": "-.025em",
-      "negative-100": "-.0125em",
+      "negative-100": "-.015em",
       normal: "0",
-      100: ".0125em",
+      100: ".015em",
       200: ".025em",
       300: ".05em",
     },

@@ -19,8 +19,8 @@
       filter: grayscale(100%) blur(4px);
       transform: scale(0.985);
     }
-    5%,
-    95% {
+    4%,
+    96% {
       filter: grayscale(0%) blur(0);
     }
     15%,

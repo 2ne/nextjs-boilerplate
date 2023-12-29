@@ -38,7 +38,7 @@ export default function Home() {
 
   const Info: React.FC<InfoProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl my-6 p-6 xl:p-12 ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:p-12 ${className ? className : ""}`}>
         <Title label="info" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
@@ -48,14 +48,14 @@ export default function Home() {
             </div>
             <div className="relative grid items-end gap-1.5 xl:row-span-2 xl:gap-0">
               <Balancer className="text-lg/6 font-medium -tracking-200 sm:text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
-              <div className="text-base font-medium -tracking-200 text-zinc-500">James Toone, Lead Product Designer</div>
+              <div className="text-base font-medium -tracking-100 text-zinc-500">James Toone, Lead Product Designer</div>
             </div>
           </div>
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
             <div className="hidden xl:grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base font-medium -tracking-200 text-zinc-500">Title</div>
-                <div className="text-base font-medium -tracking-200 xl:text-lg">Lead Product Designer</div>
+                <div className="text-base font-medium -tracking-100 text-zinc-500">Title</div>
+                <div className="text-base font-medium -tracking-100 xl:text-lg">Lead Product Designer</div>
               </div>
               <div className="grid place-content-center">
                 <svg className="size-7 sm:size-8 text-zinc-500 " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,8 +78,8 @@ export default function Home() {
             </div>
             <div className="max-xl:order-2 grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base font-medium -tracking-200 text-zinc-500">Location</div>
-                <div className="text-base font-medium -tracking-200 xl:text-lg">Brighton, UK</div>
+                <div className="text-base font-medium -tracking-100 text-zinc-500">Location</div>
+                <div className="text-base font-medium -tracking-100 xl:text-lg">Brighton, UK</div>
               </div>
               <div className="grid place-content-center">
                 <svg className="size-8 text-zinc-500  xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -169,7 +169,7 @@ export default function Home() {
           </div>
           <div className="max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
             <div className="-mt-1">
-              <div className="text-base font-medium -tracking-200 text-zinc-500 mb-2.5">Introduction</div>
+              <div className="text-base font-medium -tracking-100 text-zinc-500 mb-2.5">Introduction</div>
               <div className="text-base space-y-3 text-pretty">
                 <p>I lead teams to deliver refined, user focused products while utilising a streamlined UX process.</p>
                 <p>I find the real problems users have and craft elegant, clean solutions across all devices.</p>
@@ -187,12 +187,12 @@ export default function Home() {
       <div className="grid grid-cols-1 gap-y-3 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 fade-in-out-scroll">
         <div className="col-span-4 -mt-1 p-3 space-y-8">
           <div className="space-y-0.5">
-            <div className="text-base font-medium -tracking-200 text-zinc-500">Project</div>
-            <div className="text-base font-medium -tracking-200">Vinyl Visions</div>
+            <div className="text-base font-medium -tracking-100 text-zinc-500">Project</div>
+            <div className="text-base font-medium -tracking-100">Vinyl Visions</div>
           </div>
           <div className="space-y-0.5">
-            <div className="text-base font-medium -tracking-200 text-zinc-500">Link</div>
-            <div className="text-base font-medium -tracking-200">www.vinylvisions.co.uk</div>
+            <div className="text-base font-medium -tracking-100 text-zinc-500">Link</div>
+            <div className="text-base font-medium -tracking-100">www.vinylvisions.co.uk</div>
           </div>
         </div>
         <div className="xl:col-span-8">
@@ -231,8 +231,8 @@ export default function Home() {
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
             <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
-                <div className="text-base font-medium -tracking-200 text-zinc-500">Email</div>
-                <div className="text-base font-medium -tracking-200 xl:text-lg">jamestoone@me.com</div>
+                <div className="text-base font-medium -tracking-100 text-zinc-500">Email</div>
+                <div className="text-base font-medium -tracking-100 xl:text-lg">jamestoone@me.com</div>
               </div>
               <div className="grid place-content-center">
                 <svg className="size-7 sm:size-8 text-zinc-500 " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -324,7 +324,7 @@ export default function Home() {
             <form action="#" method="POST" className="">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 xl:grid-cols-2">
                 <div>
-                  <label htmlFor="first-name" className="block text-base font-medium -tracking-200">
+                  <label htmlFor="first-name" className="block text-base font-medium -tracking-100">
                     First name
                   </label>
                   <div className="mt-2.5">
@@ -338,7 +338,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="last-name" className="block text-base font-medium -tracking-200">
+                  <label htmlFor="last-name" className="block text-base font-medium -tracking-100">
                     Last name
                   </label>
                   <div className="mt-2.5">
@@ -352,7 +352,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-base font-medium -tracking-200">
+                  <label htmlFor="email" className="block text-base font-medium -tracking-100">
                     Email
                   </label>
                   <div className="mt-2.5">
@@ -366,7 +366,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="phone-number" className="block text-base font-medium -tracking-200">
+                  <label htmlFor="phone-number" className="block text-base font-medium -tracking-100">
                     Phone number
                   </label>
                   <div className="mt-2.5">
@@ -380,7 +380,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="xl:col-span-2">
-                  <label htmlFor="message" className="block text-base font-medium -tracking-200">
+                  <label htmlFor="message" className="block text-base font-medium -tracking-100">
                     Message
                   </label>
                   <div className="mt-2.5">
@@ -410,11 +410,11 @@ export default function Home() {
   };
 
   return (
-    <>
+    <div className="space-y-6">
       <Header />
       <Info className="fade-in-out-scroll" />
       <Work className="fade-in-out-scroll" />
       <Contact className="fade-in-out-scroll" />
-    </>
+    </div>
   );
 }
