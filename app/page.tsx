@@ -5,12 +5,12 @@ export default function Home() {
   const Header: React.FC = () => {
     return (
       <header className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:px-12 flex justify-between items-center">
-        <h1 className="font-semibold text-lg sm:text-2xl -tracking-300 sm:-tracking-100 font-serif">
+        <h1 className="font-semibold text-xl sm:text-2xl -tracking-100 font-serif">
           jamestoone<span className="text-primary-500">.design</span>
         </h1>
         <button
           type="button"
-          className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 -tracking-100 py-1.5 font-semibold border border-primary-400"
+          className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-3 sm:px-4 -tracking-100 py-1.5 font-semibold border border-primary-400"
         >
           Contact
         </button>
@@ -403,7 +403,7 @@ export default function Home() {
               <div className="mt-8 flex justify-end">
                 <button
                   type="submit"
-                  className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-4 -tracking-100 py-1.5 font-semibold border border-primary-400"
+                  className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-3 sm:px-4 -tracking-100 py-1.5 font-semibold border border-primary-400"
                 >
                   Send message
                 </button>
