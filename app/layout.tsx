@@ -15,8 +15,8 @@ const serif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: "James Toone",
-  description: "Portfolio",
+  title: "James Toone · Lead Product Designer · Portfolio",
+  description: "Bridging the gap between design and development.",
   colorScheme: "dark",
 };
 
