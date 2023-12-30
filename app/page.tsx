@@ -6,7 +6,9 @@ export default function Home() {
     return (
       <header className="mx-auto w-full max-w-lg xl:max-w-8xl p-4 sm:p-6 xl:px-12 flex justify-between items-center">
         <h1 className="font-semibold text-xl sm:text-2xl -tracking-100 font-serif">
-          jamestoone<span className="text-primary-500">.design</span>
+          <a href="/" aria-current="page" aria-label="home">
+            jamestoone<span className="text-primary-500">.design</span>
+          </a>
         </h1>
         <button
           type="button"
