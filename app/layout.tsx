@@ -18,6 +18,21 @@ export const metadata: Metadata = {
   title: "James Toone · Lead Product Designer · Portfolio",
   description: "Bridging the gap between design and development.",
   colorScheme: "dark",
+  openGraph: {
+    title: "James Toone · Lead Product Designer · Portfolio",
+    description: "Bridging the gap between design and development.",
+    url: "https://jamestoone.design",
+    siteName: "jamestoone.design",
+    images: [
+      {
+        url: "https://jamestoone.design/og-image.png",
+        width: 256,
+        height: 256,
+      },
+    ],
+    locale: "en_UK",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
