@@ -4,7 +4,7 @@ import Balancer from "react-wrap-balancer";
 export default function Home() {
   const Header: React.FC = () => {
     return (
-      <header className="mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:px-12 flex justify-between items-center">
+      <header className="mx-auto w-full max-w-lg xl:max-w-8xl p-4 sm:p-6 xl:px-12 flex justify-between items-center">
         <h1 className="font-semibold text-xl sm:text-2xl -tracking-100 font-serif">
           jamestoone<span className="text-primary-500">.design</span>
         </h1>
@@ -38,10 +38,10 @@ export default function Home() {
 
   const Info: React.FC<InfoProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:p-8 ${className ? className : ""}`}>
-        <Title label="info" className="max-xl:mt-0" />
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-4 sm:p-6 xl:p-8 ${className ? className : ""}`}>
+        <Title label="info" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
-          <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
+          <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="h-[calc(theme(size[20])-theme(spacing[1]))] aspect-square relative mb-4 grid items-center xl:mb-0 p-0.5">
               <div className="animate-[spin_4s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500 to-primary-400 p-0.5"></div>
               <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover  rounded-full object-center bg-zinc-600 border-2 border-zinc-950" src="/me.webp" />
@@ -171,7 +171,7 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <div className="relative max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
+          <div className="relative max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
             <div className="-mt-1 xl:mt-0.5">
               <div className="xl:hidden text-base font-medium -tracking-100 text-zinc-500 mb-2.5">Introduction</div>
               <span className="max-xl:hidden absolute top-[-1.95rem] left-0.5 text-primary-500 text-[7.5rem] leading-none [filter:drop-shadow(1px_2px_1px_rgba(1,1,1,0.25))]">&ldquo;</span>
@@ -214,7 +214,7 @@ export default function Home() {
 
   const Work: React.FC<WorkProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-2 xl:p-8 ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-4 sm:p-6 xl:p-8 ${className ? className : ""}`}>
         <Title label="work" />
         <div className="space-y-3 xl:space-y-8">
           <VinylVisions />
@@ -231,7 +231,7 @@ export default function Home() {
 
   const Contact: React.FC<ContactProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-2 xl:p-8 xl:min-h-screen ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-4 sm:p-6 xl:p-8 xl:min-h-screen ${className ? className : ""}`}>
         <Title label="contact" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
@@ -326,7 +326,7 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <div className="hidden xl:block row-span-3 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-6">
+          <div className="hidden xl:block row-span-3 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-4 sm:p-6">
             <form action="#" method="POST" className="">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 xl:grid-cols-2">
                 <div>
