@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`bg-zinc-950 text-zinc-100 min-h-screen selection:bg-zinc-500/25 [color-scheme:dark] ${sans.variable} ${serif.variable}`}>
+    <html lang="en" className={`bg-zinc-950 text-zinc-200 min-h-screen selection:bg-zinc-500/25 [color-scheme:dark] ${sans.variable} ${serif.variable}`}>
       <body className={`font-sans antialiased`}>{children}</body>
     </html>
   );

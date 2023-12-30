@@ -38,7 +38,7 @@ export default function Home() {
 
   const Info: React.FC<InfoProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:p-12 ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 xl:p-8 ${className ? className : ""}`}>
         <Title label="info" className="max-xl:mt-0" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
@@ -47,7 +47,7 @@ export default function Home() {
               <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover object-left-top rounded-full bg-zinc-600 border-2 border-zinc-950" src="/me.jpg" />
             </div>
             <div className="relative grid items-end gap-3 xl:row-span-2 xl:gap-0">
-              <Balancer className="font-medium -tracking-200 text-2xl xl:text-3xl">Bridging the gap between design and development.</Balancer>
+              <Balancer className="font-medium -tracking-200 text-2xl xl:text-3xl text-zinc-50">Bridging the gap between design and development.</Balancer>
               <div className="max-xl:hidden text-base font-medium -tracking-100 text-zinc-500">James Toone, Lead Product Designer</div>
               <div className="xl:hidden space-y-px text-base font-medium -tracking-100 text-zinc-500">
                 <div>James Toone, Lead Product Designer</div>
@@ -214,9 +214,9 @@ export default function Home() {
 
   const Work: React.FC<WorkProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12 ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-2 xl:p-8 ${className ? className : ""}`}>
         <Title label="work" />
-        <div className="space-y-3 xl:space-y-10">
+        <div className="space-y-3 xl:space-y-8">
           <VinylVisions />
           <VinylVisions />
           <VinylVisions />
@@ -231,7 +231,7 @@ export default function Home() {
 
   const Contact: React.FC<ContactProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-3 xl:p-12 xl:min-h-screen ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-6 pt-2 xl:p-8 xl:min-h-screen ${className ? className : ""}`}>
         <Title label="contact" />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
