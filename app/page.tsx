@@ -202,7 +202,7 @@ export default function Home() {
           </div>
         </div>
         <div className="xl:col-span-8">
-          <Image height={1170} width={2080} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] border border-zinc-50/10" />
+          <Image height={472} width={838} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] border border-zinc-50/10" />
         </div>
       </div>
     );
