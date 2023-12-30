@@ -4,8 +4,8 @@ import Balancer from "react-wrap-balancer";
 export default function Home() {
   const Header: React.FC = () => {
     return (
-      <header className="mx-auto w-full max-w-lg xl:max-w-8xl p-4 sm:p-8 xl:px-12 flex justify-between items-center">
-        <h1 className="font-semibold text-xl sm:text-2xl -tracking-100 font-serif">
+      <header className="mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 flex justify-between items-center">
+        <h1 className="font-semibold text-xl sm:text-2xl -tracking-100 font-serif -ml-1">
           <a href="/" aria-current="page" aria-label="home">
             jamestoone<span className="text-primary-500">.design</span>
           </a>
@@ -40,9 +40,9 @@ export default function Home() {
 
   const Info: React.FC<InfoProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-4 sm:p-8 xl:px-12 ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 ${className ? className : ""}`}>
         <Title label="info" />
-        <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="h-[calc(theme(size[20])-theme(spacing[1]))] aspect-square relative mb-4 grid items-center xl:mb-0 p-0.5">
               <div className="animate-[spin_4s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500 to-primary-400 p-0.5"></div>
@@ -174,15 +174,15 @@ export default function Home() {
             </ol>
           </div>
           <div className="relative max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
-            <div className="-mt-1 xl:mt-0.5">
-              <div className="xl:hidden text-base font-medium -tracking-100 text-zinc-500 mb-2.5">Introduction</div>
-              <span className="max-xl:hidden absolute top-[-1.95rem] left-0.5 text-primary-500 text-[7.5rem] leading-none [filter:drop-shadow(1px_2px_1px_rgba(1,1,1,0.25))]">&ldquo;</span>
+            <div className="-mt-0.5 sm:mt-0.5">
+              <div className="sm:hidden text-base font-medium -tracking-100 text-zinc-500 mb-2.5">Introduction</div>
+              <span className="max-sm:hidden absolute top-[-1.95rem] left-0.5 text-primary-500 text-[7.5rem] leading-none [filter:drop-shadow(1px_2px_1px_rgba(1,1,1,0.25))]">&ldquo;</span>
               <div className="xl:pl-0.5 text-base space-y-3 text-pretty">
                 <p>I have a proven track record of leading teams to deliver user-focused products using an efficient UX process.</p>
                 <p>I can discern users&apos; core issues and provide elegant solutions that work seamlessly across all devices.</p>
                 <p>I specialise in designing and coding rapid prototypes using intuitive design components, facilitating fast, iterative development while promoting sustainable practices.</p>
               </div>
-              <span className="max-xl:hidden absolute bottom-[-5.25rem] right-0.5 text-primary-500 text-[7.5rem] leading-none [filter:drop-shadow(1px_2px_1px_rgba(1,1,1,0.25))]">&rdquo;</span>
+              <span className="max-sm:hidden absolute bottom-[-5.25rem] right-0.5 text-primary-500 text-[7.5rem] leading-none [filter:drop-shadow(1px_2px_1px_rgba(1,1,1,0.25))]">&rdquo;</span>
             </div>
           </div>
         </div>
@@ -216,7 +216,7 @@ export default function Home() {
 
   const Work: React.FC<WorkProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-4 sm:p-8 xl:px-12 ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 ${className ? className : ""}`}>
         <Title label="work" />
         <div className="space-y-3 xl:space-y-8">
           <VinylVisions />
@@ -233,9 +233,9 @@ export default function Home() {
 
   const Contact: React.FC<ContactProps> = ({ className }) => {
     return (
-      <section className={`mx-auto w-full max-w-lg xl:max-w-8xl p-4 sm:p-8 xl:px-12 xl:min-h-screen ${className ? className : ""}`}>
+      <section className={`mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 xl:min-h-screen ${className ? className : ""}`}>
         <Title label="contact" />
-        <div className="grid grid-cols-1 gap-3 xl:grid-cols-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
             <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
@@ -330,7 +330,7 @@ export default function Home() {
           </div>
           <div className="hidden xl:block row-span-3 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-4 sm:p-6">
             <form action="#" method="POST" className="">
-              <div className="grid grid-cols-1 gap-x-8 gap-y-6 xl:grid-cols-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6 xl:grid-cols-2">
                 <div>
                   <label htmlFor="first-name" className="block text-base font-medium -tracking-100">
                     First name
