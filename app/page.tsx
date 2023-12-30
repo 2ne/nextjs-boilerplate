@@ -44,7 +44,7 @@ export default function Home() {
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="h-[calc(theme(size[20])-theme(spacing[1]))] aspect-square relative mb-4 grid items-center xl:mb-0 p-0.5">
               <div className="animate-[spin_2s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500 to-primary-500 p-0.5"></div>
-              <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover  rounded-full object-center bg-zinc-600 border-2 border-zinc-950" src="/jt.png" />
+              <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover  rounded-full object-center bg-zinc-600 border-2 border-zinc-950" src="/me.webp" />
             </div>
             <div className="relative grid items-end gap-3 xl:row-span-2 xl:gap-0">
               <Balancer className="font-medium -tracking-200 text-2xl xl:text-3xl text-zinc-50">Bridging the gap between design and development.</Balancer>
