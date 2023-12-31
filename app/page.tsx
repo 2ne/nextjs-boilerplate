@@ -40,7 +40,7 @@ export default function Home() {
       <section className={`mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 ${className ? className : ""}`}>
         <Title label="info" />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 xl:grid-cols-12">
-          <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
+          <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6  xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="h-[calc(theme(size[20])-theme(spacing[1]))] aspect-square relative mb-4 grid items-center xl:mb-0 p-0.5">
               <div className="animate-[spin_4s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500 to-primary-400 p-0.5"></div>
               <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover  rounded-full object-center bg-zinc-600 border-2 border-zinc-950" src="/me.webp" />
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
           </div>
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
-            <div className="hidden xl:grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="hidden xl:grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1  2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-100 text-zinc-500">Title</div>
                 <div className="text-base font-medium -tracking-100 xl:text-lg">Lead Product Designer</div>
@@ -79,7 +79,7 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="max-xl:hidden grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="max-xl:hidden grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1  2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-100 text-zinc-500">Location</div>
                 <div className="text-base font-medium -tracking-100 xl:text-lg">Brighton, UK</div>
@@ -98,7 +98,7 @@ export default function Home() {
               </div>
             </div>
             <ol className="hidden xl:contents">
-              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
+              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M9.31 18.25C14.7819 18.25 17.7744 13.4403 17.7744 9.26994C17.7744 9.03682 17.9396 8.83015 18.152 8.73398C18.8803 8.40413 19.8249 7.49943 18.8494 5.97828C18.2031 6.32576 17.6719 6.51562 16.9603 6.74448C15.834 5.47393 13.9495 5.41269 12.7514 6.60761C11.9785 7.37819 11.651 8.52686 11.8907 9.62304C9.49851 9.49618 6.69788 7.73566 5.1875 5.76391C4.39814 7.20632 4.80107 9.05121 6.10822 9.97802C5.63461 9.96302 5.1716 9.82741 4.75807 9.58305V9.62304C4.75807 11.1255 5.75654 12.4191 7.1444 12.7166C6.70672 12.8435 6.24724 12.8622 5.80131 12.771C6.19128 14.0565 7.87974 15.4989 9.15272 15.5245C8.09887 16.4026 6.79761 16.8795 5.45806 16.8782C5.22126 16.8776 4.98504 16.8626 4.75 16.8326C6.11076 17.7588 7.69359 18.25 9.31 18.2475V18.25Z"
@@ -109,7 +109,7 @@ export default function Home() {
                   ></path>
                 </svg>
               </li>
-              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
+              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
@@ -133,7 +133,7 @@ export default function Home() {
                   ></path>
                 </svg>
               </li>
-              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
+              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M19.25 12C19.25 16.0041 16.0041 19.25 12 19.25C7.99594 19.25 4.75 16.0041 4.75 12C4.75 7.99594 7.99594 4.75 12 4.75C16.0041 4.75 19.25 7.99594 19.25 12Z"
@@ -147,7 +147,7 @@ export default function Home() {
                   <path d="M10.6876 18.9999C10.6876 18.9999 11.5 12.5001 18.7178 10.5001" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
               </li>
-              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
+              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
@@ -170,7 +170,7 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <div className="relative max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 xl:row-span-3">
+          <div className="relative max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6  xl:col-span-4 xl:row-span-3">
             <div className="-mt-0.5 sm:mt-0.5">
               <div className="sm:hidden text-base font-medium -tracking-100 text-zinc-500 mb-2.5">Introduction</div>
               <span className="max-sm:hidden absolute top-[-1.95rem] left-0.5 text-primary-500 text-[7.5rem] leading-none [filter:drop-shadow(1px_2px_1px_rgba(1,1,1,0.25))]">&ldquo;</span>
@@ -189,21 +189,26 @@ export default function Home() {
 
   const VinylVisions: React.FC = () => {
     return (
-      <div className="group cursor-pointer grid grid-cols-1 gap-4 sm:gap-6 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-1 fade-in-out-scroll">
-        <div className="-mt-0.5 sm:mt-0">
+      <div className="cursor-pointer relative bg-gradient-to-tl from-zinc-900/75 to-zinc-900 fade-in-out-scroll group rounded-2xl overflow-clip">
+        <div className="will-change-[transform] absolute inset-0 bg-[url('/vinyl-visions.png')] bg-no-repeat bg-bottom bg-contain rounded-t-2xl scale-[1.001] group-hover:scale-[1.025] transition-transform duration-700" />
+        <Image
+          height={702}
+          width={1248}
+          alt="Vinyl Visions Mockup"
+          src="/vinyl-visions.png"
+          className="will-change-[transform] relative rounded-2xl rounded-b-none scale-[1.001] group-hover:scale-[1.025] transition-transform duration-700"
+        />
+        <div className="relative p-6 bg-gradient-to-b to-zinc-900 backdrop-blur-xl backdrop-brightness-75 flex items-center justify-between">
           <div className="space-y-0.5">
-            <div className="text-base font-medium -tracking-100 xl:text-lg">Vinyl Visions</div>
-            <div className="text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
+            <div className="text-lg font-medium -tracking-100 xl:text-xl">Vinyl Visions</div>
+            <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
           </div>
-        </div>
-        <div className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] overflow-clip">
-          <Image
-            height={689}
-            width={1224}
-            alt="Vinyl Visions Mockup"
-            src="/vinyl-visions.png"
-            className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] group-hover:scale-[1.025] transition-all duration-500"
-          />
+          <button className="transition-all duration-700 text-sm sm:text-base group-hover:bg-primary-500 text-primary-500 group-hover:text-zinc-950 rounded-full px-3 sm:px-4 -tracking-100 py-1.5 font-semibold border border-primary-400 inline-flex items-center gap-2">
+            <span>View</span>
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" className="-m-1">
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".75" d="M17.25 15.25v-8.5h-8.5M17 7L6.75 17.25"></path>
+            </svg>
+          </button>
         </div>
       </div>
     );
@@ -236,7 +241,7 @@ export default function Home() {
         <Title label="contact" />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
-            <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1 ring-1 ring-inset ring-zinc-50/5 2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1  2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-100 text-zinc-500">Email</div>
                 <div className="text-base font-medium -tracking-100 xl:text-lg">jamestoone@me.com</div>
@@ -255,7 +260,7 @@ export default function Home() {
               </div>
             </div>
             <ol className="grid grid-cols-4 gap-3 xl:contents">
-              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
+              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M9.31 18.25C14.7819 18.25 17.7744 13.4403 17.7744 9.26994C17.7744 9.03682 17.9396 8.83015 18.152 8.73398C18.8803 8.40413 19.8249 7.49943 18.8494 5.97828C18.2031 6.32576 17.6719 6.51562 16.9603 6.74448C15.834 5.47393 13.9495 5.41269 12.7514 6.60761C11.9785 7.37819 11.651 8.52686 11.8907 9.62304C9.49851 9.49618 6.69788 7.73566 5.1875 5.76391C4.39814 7.20632 4.80107 9.05121 6.10822 9.97802C5.63461 9.96302 5.1716 9.82741 4.75807 9.58305V9.62304C4.75807 11.1255 5.75654 12.4191 7.1444 12.7166C6.70672 12.8435 6.24724 12.8622 5.80131 12.771C6.19128 14.0565 7.87974 15.4989 9.15272 15.5245C8.09887 16.4026 6.79761 16.8795 5.45806 16.8782C5.22126 16.8776 4.98504 16.8626 4.75 16.8326C6.11076 17.7588 7.69359 18.25 9.31 18.2475V18.25Z"
@@ -266,7 +271,7 @@ export default function Home() {
                   ></path>
                 </svg>
               </li>
-              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
+              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
@@ -290,7 +295,7 @@ export default function Home() {
                   ></path>
                 </svg>
               </li>
-              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
+              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M19.25 12C19.25 16.0041 16.0041 19.25 12 19.25C7.99594 19.25 4.75 16.0041 4.75 12C4.75 7.99594 7.99594 4.75 12 4.75C16.0041 4.75 19.25 7.99594 19.25 12Z"
@@ -304,7 +309,7 @@ export default function Home() {
                   <path d="M10.6876 18.9999C10.6876 18.9999 11.5 12.5001 18.7178 10.5001" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
               </li>
-              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5">
+              <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
@@ -327,7 +332,7 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <div className="hidden xl:block row-span-3 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ring-1 ring-inset ring-zinc-50/5 xl:col-span-8 p-4 sm:p-6">
+          <div className="hidden xl:block row-span-3 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900  xl:col-span-8 p-4 sm:p-6">
             <form action="#" method="POST" className="">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6 xl:grid-cols-2">
                 <div>
@@ -340,7 +345,7 @@ export default function Home() {
                       name="first-name"
                       id="first-name"
                       autoComplete="given-name"
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-zinc-50/5 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -354,7 +359,7 @@ export default function Home() {
                       name="last-name"
                       id="last-name"
                       autoComplete="family-name"
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-zinc-50/5 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -368,7 +373,7 @@ export default function Home() {
                       name="email"
                       id="email"
                       autoComplete="email"
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-zinc-50/5 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -382,7 +387,7 @@ export default function Home() {
                       name="phone-number"
                       id="phone-number"
                       autoComplete="tel"
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-zinc-50/5 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -395,7 +400,7 @@ export default function Home() {
                       name="message"
                       id="message"
                       rows={4}
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-zinc-50/5 focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                       defaultValue={""}
                     />
                   </div>
