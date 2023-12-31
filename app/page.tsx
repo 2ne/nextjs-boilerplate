@@ -40,13 +40,15 @@ export default function Home() {
       <section className={`mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 ${className ? className : ""}`}>
         <Title label="info" />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 xl:grid-cols-12">
-          <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6  xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
+          <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="h-[calc(theme(size[20])-theme(spacing[1]))] aspect-square relative mb-4 grid items-center xl:mb-0 p-0.5">
               <div className="animate-[spin_4s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500 to-primary-400 p-0.5"></div>
               <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover  rounded-full object-center bg-zinc-600 border-2 border-zinc-950" src="/me.webp" />
             </div>
             <div className="relative grid items-end gap-3 xl:row-span-2 xl:gap-0">
-              <Balancer className="font-medium -tracking-200 text-2xl xl:text-3xl text-zinc-50">Bridging the gap between design and development.</Balancer>
+              <Balancer ratio={0} className="!max-w-[22ch] font-medium -tracking-200 text-2xl xl:text-3xl text-zinc-50">
+                Bridging the gap between design and development.
+              </Balancer>
               <div className="max-xl:hidden text-base font-medium -tracking-100 text-zinc-500">James Toone, Lead Product Designer</div>
               <div className="xl:hidden space-y-px text-base font-medium -tracking-100 text-zinc-500">
                 <div>James Toone, Lead Product Designer</div>
@@ -345,7 +347,7 @@ export default function Home() {
                       name="first-name"
                       id="first-name"
                       autoComplete="given-name"
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="ring-1 ring-inset ring-zinc-50/5 block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -359,7 +361,7 @@ export default function Home() {
                       name="last-name"
                       id="last-name"
                       autoComplete="family-name"
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="ring-1 ring-inset ring-zinc-50/5 block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -373,7 +375,7 @@ export default function Home() {
                       name="email"
                       id="email"
                       autoComplete="email"
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="ring-1 ring-inset ring-zinc-50/5 block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -387,7 +389,7 @@ export default function Home() {
                       name="phone-number"
                       id="phone-number"
                       autoComplete="tel"
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="ring-1 ring-inset ring-zinc-50/5 block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -400,7 +402,7 @@ export default function Home() {
                       name="message"
                       id="message"
                       rows={4}
-                      className="block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
+                      className="ring-1 ring-inset ring-zinc-50/5 block w-full rounded-md border-0 bg-zinc-800/75 px-3.5 py-2 text-white shadow-sm  focus:ring-2 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6"
                       defaultValue={""}
                     />
                   </div>
