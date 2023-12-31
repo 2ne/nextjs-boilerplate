@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 @media not all and (min-width: 640px) { 
-  .logo {
-    letter-spacing: -.05em;
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .logo {
+      letter-spacing: -.05em;
+    }
   }
 }
 
