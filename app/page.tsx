@@ -5,15 +5,12 @@ export default function Home() {
   const Header: React.FC = () => {
     return (
       <header className="mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 flex justify-between items-center">
-        <h1 className="logo font-semibold text-xl sm:text-2xl sm:-tracking-100 font-serif ml-0.5">
+        <h1 className="logo font-semibold text-xl sm:text-2xl sm:-tracking-100 font-serif">
           <a href="/" aria-current="page" aria-label="home">
             jamestoone<span className="text-primary-500">.design</span>
           </a>
         </h1>
-        <button
-          type="button"
-          className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-3 sm:px-4 -tracking-100 py-1.5 font-semibold border border-primary-400"
-        >
+        <button type="button" className="text-sm sm:text-base bg-primary-500 text-zinc-950 rounded-full px-3 sm:px-4 -tracking-100 py-1.5 font-semibold border border-primary-400">
           Contact
         </button>
       </header>
@@ -403,10 +400,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="mt-8 flex justify-end">
-                <button
-                  type="submit"
-                  className="text-sm sm:text-base from-primary-500 to-primary-400 bg-gradient-to-b text-zinc-950 rounded-full px-3 sm:px-4 -tracking-100 py-1.5 font-semibold border border-primary-400"
-                >
+                <button type="submit" className="text-sm sm:text-base bg-primary-500 text-zinc-950 rounded-full px-3 sm:px-4 -tracking-100 py-1.5 font-semibold border border-primary-400">
                   Send message
                 </button>
               </div>
