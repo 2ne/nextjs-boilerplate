@@ -204,7 +204,7 @@ export default function Home() {
           className="will-change-[transform] relative rounded-2xl rounded-b-none group-hover:scale-[1.025] transition-transform duration-700"
         />
         <div className="relative p-4 sm:p-6 overflow-clip">
-          <div className="will-change-[transform] absolute inset-0 bg-[url('/vinyl-visions.png')] bg-no-repeat bg-fixed bg-[bottom_1rem_center] group-hover:bg-[bottom_1.5rem_center] bg-cover group-hover:scale-[1.025] transition-transform duration-700" />
+          <div className="will-change-[transform] absolute inset-0 bg-[url('/vinyl-visions.png')] bg-no-repeat bg-[bottom_1rem_center] bg-cover group-hover:scale-[1.025] transition-transform duration-700" />
           <div className="inset-0 absolute bg-gradient-to-b to-zinc-900 backdrop-blur-2xl backdrop-brightness-75"></div>
           <div className="relative flex items-center justify-between">
             <div className="space-y-0.5">
