@@ -201,7 +201,7 @@ export default function Home() {
         <div className="relative p-4 sm:p-6 bg-gradient-to-b to-zinc-900 backdrop-blur-xl backdrop-brightness-75 flex items-center justify-between">
           <div className="space-y-0.5">
             <div className="text-lg font-medium -tracking-100 xl:text-xl">Vinyl Visions</div>
-            <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
+            <div className="text-xs sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
           </div>
           <button className="transition-all duration-700 text-sm sm:text-base group-hover:bg-primary-500 text-primary-500 group-hover:text-zinc-950 rounded-full px-3 sm:px-4 -tracking-100 py-1.5 font-semibold border border-primary-400 inline-flex items-center gap-2">
             <span>View</span>
