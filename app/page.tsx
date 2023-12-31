@@ -31,24 +31,29 @@ export default function Home() {
     );
   };
 
-  interface InfoProps {
+  interface IntroProps {
     className?: string;
   }
 
-  const Info: React.FC<InfoProps> = ({ className }) => {
+  const Info: React.FC<IntroProps> = ({ className }) => {
     return (
       <section className={`mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 ${className ? className : ""}`}>
-        <Title label="info" />
+        <Title label="intro" />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="h-[calc(theme(size[20])-theme(spacing[1]))] aspect-square relative mb-4 grid items-center xl:mb-0 p-0.5">
               <div className="animate-[spin_4s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500 to-primary-400 p-0.5"></div>
               <Image alt="James Toone" width={80} height={80} className="relative aspect-square object-cover  rounded-full object-center bg-zinc-600 border-2 border-zinc-950" src="/me.webp" />
             </div>
-            <div className="relative grid items-end gap-3 xl:row-span-2 xl:gap-0">
+            <div className="max-xl:space-y-3 xl:grid xl:items-end xl:row-span-2">
               <Balancer ratio={0} className="!max-w-[22ch] font-medium -tracking-200 text-2xl xl:text-3xl text-zinc-50">
                 Bridging the gap between design and development.
               </Balancer>
+              <div className="sm:hidden text-base space-y-3 text-pretty">
+                <p>I have a proven track record of leading teams to deliver user-focused products using an efficient UX process.</p>
+                <p>I can discern users&apos; core issues and provide elegant solutions that work seamlessly across all devices.</p>
+                <p>I specialise in designing and coding rapid prototypes using intuitive design components, facilitating fast, iterative development while promoting sustainable practices.</p>
+              </div>
               <div className="max-xl:hidden text-base font-medium -tracking-100 text-zinc-500">James Toone, Lead Product Designer</div>
               <div className="xl:hidden space-y-px text-base font-medium -tracking-100 text-zinc-500">
                 <div>James Toone, Lead Product Designer</div>
@@ -172,9 +177,8 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <div className="relative max-xl:order-1 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6  xl:col-span-4 xl:row-span-3">
+          <div className="relative max-sm:hidden rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6  xl:col-span-4 xl:row-span-3">
             <div className="-mt-0.5 sm:mt-0.5">
-              <div className="sm:hidden text-base font-medium -tracking-100 text-zinc-500 mb-2.5">Introduction</div>
               <span className="max-sm:hidden absolute top-[-1.95rem] left-0.5 text-primary-500 text-[7.5rem] leading-none [filter:drop-shadow(1px_2px_1px_rgba(1,1,1,0.25))]">&ldquo;</span>
               <div className="xl:pl-0.5 text-base space-y-3 text-pretty">
                 <p>I have a proven track record of leading teams to deliver user-focused products using an efficient UX process.</p>
