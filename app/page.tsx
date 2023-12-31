@@ -39,7 +39,7 @@ export default function Home() {
     return (
       <section className={`mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 ${className ? className : ""}`}>
         <Title label="intro" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 xl:grid-cols-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 xl:grid-cols-12">
           <div className="max-xl:order-0 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 xl:col-span-4 xl:row-span-3 xl:grid xl:grid-rows-subgrid">
             <div className="h-[calc(theme(size[20])-theme(spacing[1]))] aspect-square relative mb-4 grid items-center xl:mb-0 p-0.5">
               <div className="animate-[spin_4s_linear_infinite] absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500 to-primary-400 p-0.5"></div>
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
           </div>
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
-            <div className="hidden xl:grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1  2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="hidden xl:grid grid-cols-4 items-center gap-2 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1  2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-100 text-zinc-500">Title</div>
                 <div className="text-base font-medium -tracking-100 xl:text-lg">Lead Product Designer</div>
@@ -86,7 +86,7 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="max-xl:hidden grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1  2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="max-xl:hidden grid grid-cols-4 items-center gap-2 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1  2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-100 text-zinc-500">Location</div>
                 <div className="text-base font-medium -tracking-100 xl:text-lg">Brighton, UK</div>
@@ -245,9 +245,9 @@ export default function Home() {
     return (
       <section className={`mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 xl:min-h-screen ${className ? className : ""}`}>
         <Title label="contact" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 xl:grid-cols-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 xl:grid-cols-12">
           <div className="contents xl:col-span-4 xl:row-span-3 xl:grid xl:grid-cols-subgrid xl:grid-rows-subgrid">
-            <div className="grid grid-cols-4 items-center gap-3 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1  2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
+            <div className="grid grid-cols-4 items-center gap-2 rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 py-6 pl-6 pr-1  2xl:pr-0 xl:col-span-4 xl:grid-cols-subgrid">
               <div className="col-span-3 -mt-1 space-y-1">
                 <div className="text-base font-medium -tracking-100 text-zinc-500">Email</div>
                 <div className="text-base font-medium -tracking-100 xl:text-lg">jamestoone@me.com</div>
@@ -265,7 +265,7 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <ol className="grid grid-cols-4 gap-3 xl:contents">
+            <ol className="grid grid-cols-4 gap-2 xl:contents">
               <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
                 <svg className="size-8 text-zinc-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
