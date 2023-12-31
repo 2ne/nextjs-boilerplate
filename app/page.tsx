@@ -6,7 +6,7 @@ export default function Home() {
     return (
       <header className="mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 flex justify-between items-center">
         <h1 className="logo font-semibold text-xl sm:text-2xl sm:-tracking-100 font-serif">
-          <a href="/" aria-current="page" aria-label="home" className="block">
+          <a href="/" className="block">
             jamestoone<span className="text-primary-500">.design</span>
           </a>
         </h1>
@@ -196,25 +196,28 @@ export default function Home() {
   const VinylVisions: React.FC = () => {
     return (
       <div className="cursor-pointer relative bg-gradient-to-tl from-zinc-900/75 to-zinc-900 fade-in-out-scroll group rounded-2xl overflow-clip">
-        <div className="will-change-[transform] absolute inset-0 bg-[url('/vinyl-visions.png')] bg-no-repeat bg-bottom bg-contain rounded-t-2xl scale-[1.001] group-hover:scale-[1.025] transition-transform duration-700" />
         <Image
           height={702}
           width={1248}
           alt="Vinyl Visions Mockup"
           src="/vinyl-visions.png"
-          className="will-change-[transform] relative rounded-2xl rounded-b-none scale-[1.001] group-hover:scale-[1.025] transition-transform duration-700"
+          className="will-change-[transform] relative rounded-2xl rounded-b-none group-hover:scale-[1.025] transition-transform duration-700"
         />
-        <div className="relative p-4 sm:p-6 bg-gradient-to-b to-zinc-900 backdrop-blur-xl backdrop-brightness-75 flex items-center justify-between">
-          <div className="space-y-0.5">
-            <div className="text-base font-medium -tracking-100 xl:text-xl">Vinyl Visions</div>
-            <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
+        <div className="relative p-4 sm:p-6 overflow-clip">
+          <div className="will-change-[transform] absolute inset-0 bg-[url('/vinyl-visions.png')] bg-no-repeat bg-fixed bg-[bottom_1rem_center] group-hover:bg-[bottom_1.5rem_center] bg-cover group-hover:scale-[1.025] transition-transform duration-700" />
+          <div className="inset-0 absolute bg-gradient-to-b to-zinc-900 backdrop-blur-2xl backdrop-brightness-75"></div>
+          <div className="relative flex items-center justify-between">
+            <div className="space-y-0.5">
+              <div className="text-base font-medium -tracking-100 xl:text-xl">Vinyl Visions</div>
+              <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
+            </div>
+            <button className="max-sm:border-transparent max-sm:aspect-square transition-all duration-700 text-sm sm:text-base group-hover:bg-primary-500 text-zinc-300 group-hover:text-zinc-950 rounded-full max-sm:h-10 justify-center sm:px-4 -tracking-100 sm:py-1.5 font-semibold border border-zinc-500 group-hover:border-primary-500 inline-flex items-center gap-2">
+              <span className="max-sm:hidden">View</span>
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" className="opacity-75 group-hover:opacity-100 sm:-mr-1 rotate-45 transition-transform group-hover:rotate-0 duration-700">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".75" d="M17.25 15.25v-8.5h-8.5M17 7L6.75 17.25"></path>
+              </svg>
+            </button>
           </div>
-          <button className="max-sm:border-transparent max-sm:aspect-square transition-all duration-700 text-sm sm:text-base group-hover:bg-primary-500 text-zinc-300 group-hover:text-zinc-950 rounded-full max-sm:h-10 justify-center sm:px-4 -tracking-100 sm:py-1.5 font-semibold border border-zinc-500 group-hover:border-primary-500 inline-flex items-center gap-2">
-            <span className="max-sm:hidden">View</span>
-            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" className="opacity-75 group-hover:opacity-100 sm:-mr-1 rotate-45 transition-transform group-hover:rotate-0 duration-700">
-              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".75" d="M17.25 15.25v-8.5h-8.5M17 7L6.75 17.25"></path>
-            </svg>
-          </button>
         </div>
       </div>
     );
