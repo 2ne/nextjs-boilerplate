@@ -189,19 +189,21 @@ export default function Home() {
 
   const VinylVisions: React.FC = () => {
     return (
-      <div className="grid grid-cols-1 gap-y-3 xl:grid-cols-12 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-3 ring-1 ring-inset ring-zinc-50/5 xl:col-span-4 fade-in-out-scroll">
-        <div className="col-span-4 -mt-1 p-3 space-y-8">
+      <div className="group cursor-pointer grid grid-cols-1 gap-4 sm:gap-6 relative overflow-clip rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 p-4 sm:p-6 ring-1 ring-inset ring-zinc-50/5 xl:col-span-1 fade-in-out-scroll">
+        <div className="-mt-0.5 sm:mt-0">
           <div className="space-y-0.5">
-            <div className="text-base font-medium -tracking-100 text-zinc-500">Project</div>
-            <div className="text-base font-medium -tracking-100">Vinyl Visions</div>
-          </div>
-          <div className="space-y-0.5 max-xl:hidden">
-            <div className="text-base font-medium -tracking-100 text-zinc-500">Link</div>
-            <div className="text-base font-medium -tracking-100">www.vinylvisions.co.uk</div>
+            <div className="text-base font-medium -tracking-100 xl:text-lg">Vinyl Visions</div>
+            <div className="text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
           </div>
         </div>
-        <div className="xl:col-span-8">
-          <Image height={472} width={838} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] border border-zinc-50/10" />
+        <div className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] overflow-clip">
+          <Image
+            height={689}
+            width={1224}
+            alt="Vinyl Visions Mockup"
+            src="/vinyl-visions.png"
+            className="rounded-[calc(theme(borderRadius.2xl)-theme(spacing[1]))] group-hover:scale-[1.025] transition-all duration-500"
+          />
         </div>
       </div>
     );
