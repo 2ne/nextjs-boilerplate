@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 639px) {
+@media not all and (min-width: 640px) { 
   .logo {
-    letter-spacing: -0.5em;
+    letter-spacing: -.05em;
   }
 }
 
