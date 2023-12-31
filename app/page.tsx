@@ -198,7 +198,7 @@ export default function Home() {
           src="/vinyl-visions.png"
           className="will-change-[transform] relative rounded-2xl rounded-b-none scale-[1.001] group-hover:scale-[1.025] transition-transform duration-700"
         />
-        <div className="relative p-6 bg-gradient-to-b to-zinc-900 backdrop-blur-xl backdrop-brightness-75 flex items-center justify-between">
+        <div className="relative p-4 sm:p-6 bg-gradient-to-b to-zinc-900 backdrop-blur-xl backdrop-brightness-75 flex items-center justify-between">
           <div className="space-y-0.5">
             <div className="text-lg font-medium -tracking-100 xl:text-xl">Vinyl Visions</div>
             <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
