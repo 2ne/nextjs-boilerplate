@@ -6,7 +6,7 @@ export default function Home() {
     return (
       <header className="mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 flex justify-between items-center">
         <h1 className="logo font-semibold text-xl sm:text-2xl sm:-tracking-100 font-serif">
-          <a href="/" aria-current="page" aria-label="home">
+          <a href="/" aria-current="page" aria-label="home" className="block">
             jamestoone<span className="text-primary-500">.design</span>
           </a>
         </h1>
