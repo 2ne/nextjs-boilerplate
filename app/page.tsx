@@ -203,9 +203,9 @@ export default function Home() {
             <div className="text-base font-medium -tracking-100 xl:text-xl">Vinyl Visions</div>
             <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
           </div>
-          <button className="transition-all duration-700 text-sm sm:text-base group-hover:bg-primary-500 text-primary-500 group-hover:text-zinc-950 rounded-full px-3 sm:px-4 -tracking-100 py-1.5 font-semibold border border-primary-400 inline-flex items-center gap-2">
-            <span>View</span>
-            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" className="-m-1">
+          <button className="max-sm:border-transparent max-sm:aspect-square transition-all duration-700 text-sm sm:text-base group-hover:bg-primary-500 text-zinc-300 group-hover:text-zinc-950 rounded-full max-sm:h-10 justify-center sm:px-4 -tracking-100 sm:py-1.5 font-semibold border border-zinc-500 group-hover:border-primary-500 inline-flex items-center gap-2">
+            <span className="max-sm:hidden">View</span>
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" className="opacity-75 group-hover:opacity-100 sm:-mr-1 rotate-45 transition-transform group-hover:rotate-0 duration-700">
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".75" d="M17.25 15.25v-8.5h-8.5M17 7L6.75 17.25"></path>
             </svg>
           </button>
