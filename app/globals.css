@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@media only screen and (min-width: 640px) and (min-device-pixel-ratio: 2), only screen and (min-width: 640px) and (min-resolution: 192dpi) {
+@media (min-width: 640px) {
   .logo {
     letter-spacing: -0.025em;
   }
