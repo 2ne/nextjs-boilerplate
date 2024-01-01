@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const sans = Manrope({
   subsets: ["latin"],
@@ -39,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`bg-zinc-950 text-zinc-200 min-h-screen selection:bg-zinc-500/25 [color-scheme:dark] ${sans.variable} ${serif.variable}`}>
       <body className={`font-sans antialiased`}>
-        {children} <SpeedInsights />
+        {children} <SpeedInsights /> <Analytics />
       </body>
     </html>
   );
