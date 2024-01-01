@@ -72,16 +72,16 @@ export default function Home() {
                   <path
                     d="M4.75 9.75C4.75 8.64543 5.64543 7.75 6.75 7.75H17.25C18.3546 7.75 19.25 8.64543 19.25 9.75V17.25C19.25 18.3546 18.3546 19.25 17.25 19.25H6.75C5.64543 19.25 4.75 18.3546 4.75 17.25V9.75Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M8.75 18.75V6.75C8.75 5.64543 9.64543 4.75 10.75 4.75H13.25C14.3546 4.75 15.25 5.64543 15.25 6.75V18.75"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </div>
@@ -95,12 +95,12 @@ export default function Home() {
                 <svg className="size-8 text-zinc-500  xl:size-9" width="24" height="24" fill="none" viewBox="0 0 24 24">
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth=".75"
                     d="M18.25 11C18.25 15 12 19.25 12 19.25C12 19.25 5.75 15 5.75 11C5.75 7.5 8.68629 4.75 12 4.75C15.3137 4.75 18.25 7.5 18.25 11Z"
                   ></path>
-                  <circle cx="12" cy="11" r="2.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"></circle>
+                  <circle cx="12" cy="11" r="2.25" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".75"></circle>
                 </svg>
               </div>
             </div>
@@ -110,9 +110,9 @@ export default function Home() {
                   <path
                     d="M9.31 18.25C14.7819 18.25 17.7744 13.4403 17.7744 9.26994C17.7744 9.03682 17.9396 8.83015 18.152 8.73398C18.8803 8.40413 19.8249 7.49943 18.8494 5.97828C18.2031 6.32576 17.6719 6.51562 16.9603 6.74448C15.834 5.47393 13.9495 5.41269 12.7514 6.60761C11.9785 7.37819 11.651 8.52686 11.8907 9.62304C9.49851 9.49618 6.69788 7.73566 5.1875 5.76391C4.39814 7.20632 4.80107 9.05121 6.10822 9.97802C5.63461 9.96302 5.1716 9.82741 4.75807 9.58305V9.62304C4.75807 11.1255 5.75654 12.4191 7.1444 12.7166C6.70672 12.8435 6.24724 12.8622 5.80131 12.771C6.19128 14.0565 7.87974 15.4989 9.15272 15.5245C8.09887 16.4026 6.79761 16.8795 5.45806 16.8782C5.22126 16.8776 4.98504 16.8626 4.75 16.8326C6.11076 17.7588 7.69359 18.25 9.31 18.2475V18.25Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </li>
@@ -121,22 +121,22 @@ export default function Home() {
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M16.5 8C16.5 8.27614 16.2761 8.5 16 8.5C15.7239 8.5 15.5 8.27614 15.5 8C15.5 7.72386 15.7239 7.5 16 7.5C16.2761 7.5 16.5 7.72386 16.5 8Z"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M15.25 13C15.25 14.7949 13.7949 16.25 12 16.25C10.2051 16.25 8.75 14.7949 8.75 13C8.75 11.2051 10.2051 9.75 12 9.75C13.7949 9.75 15.25 11.2051 15.25 13Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </li>
@@ -145,13 +145,13 @@ export default function Home() {
                   <path
                     d="M19.25 12C19.25 16.0041 16.0041 19.25 12 19.25C7.99594 19.25 4.75 16.0041 4.75 12C4.75 7.99594 7.99594 4.75 12 4.75C16.0041 4.75 19.25 7.99594 19.25 12Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
-                  <path d="M8.27136 6.5C11.0577 8.10042 14.9494 11.1596 17.1497 16.5" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M16 6.38916C14.3573 8.37479 10.6906 11.7113 5 11" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M10.6876 18.9999C10.6876 18.9999 11.5 12.5001 18.7178 10.5001" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M8.27136 6.5C11.0577 8.10042 14.9494 11.1596 17.1497 16.5" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M16 6.38916C14.3573 8.37479 10.6906 11.7113 5 11" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M10.6876 18.9999C10.6876 18.9999 11.5 12.5001 18.7178 10.5001" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </li>
               <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
@@ -159,20 +159,20 @@ export default function Home() {
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M10.75 16.25V14C10.75 12.7574 11.7574 11.75 13 11.75C14.2426 11.75 15.25 12.7574 15.25 14V16.25"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
-                  <path d="M10.75 11.75V16.25" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M7.75 11.75V16.25" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M7.75 8.75V9.25" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M10.75 11.75V16.25" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M7.75 11.75V16.25" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M7.75 8.75V9.25" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </li>
             </ol>
@@ -196,31 +196,25 @@ export default function Home() {
   const VinylVisions: React.FC = () => {
     return (
       <div className="cursor-pointer relative bg-gradient-to-tl from-zinc-900/75 to-zinc-900 fade-in-out-scroll group rounded-2xl overflow-clip">
-        <Image
-          height={702}
-          width={1248}
-          alt="Vinyl Visions Mockup"
-          src="/vinyl-visions.png"
-          className="will-change-[transform] relative rounded-2xl rounded-b-none group-hover:scale-[1.025] transition-transform duration-700"
-        />
-        <div className="relative p-4 sm:p-6 overflow-clip">
-          <div className="will-change-[transform] absolute inset-0 bg-[url('/vinyl-visions.png')] bg-no-repeat bg-[bottom_1rem_center] bg-cover group-hover:scale-[1.025] transition-transform duration-700" />
-          <div className="inset-0 absolute bg-gradient-to-b to-zinc-900 backdrop-blur-2xl backdrop-brightness-75"></div>
-          <div className="relative flex items-center justify-between">
-            <div className="space-y-0.5">
-              <div className="text-base font-medium -tracking-100 xl:text-xl">Vinyl Visions</div>
-              <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
-            </div>
-            <button
-              aria-label="View project"
-              className="max-sm:border-transparent max-sm:aspect-square transition-all duration-700 text-sm sm:text-base group-hover:bg-primary-500 text-zinc-300 group-hover:text-zinc-950 rounded-full max-sm:h-10 justify-center sm:px-4 -tracking-100 sm:py-1.5 font-semibold border border-zinc-500 group-hover:border-primary-500 inline-flex items-center gap-2"
-            >
-              <span className="max-sm:hidden">View</span>
-              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" className="opacity-75 group-hover:opacity-100 sm:-mr-1 rotate-45 transition-transform group-hover:rotate-0 duration-700">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".75" d="M17.25 15.25v-8.5h-8.5M17 7L6.75 17.25"></path>
-              </svg>
-            </button>
+        <div className="absolute inset-0 bg-[url('/vinyl-visions.png')] bg-no-repeat bg-cover group-hover:scale-[1.05] transition-transform duration-700" />
+        <div className="inset-0 absolute bg-gradient-to-b to-zinc-900 backdrop-blur-2xl backdrop-brightness-75"></div>
+        <div className="p-4 sm:p-6 pb-0 overflow-clip rounded-xl">
+          <Image height={702} width={1248} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="relative rounded-xl" />
+        </div>
+        <div className="relative p-4 sm:p-6 flex items-center justify-between">
+          <div className="space-y-0.5">
+            <div className="text-base font-medium -tracking-100 xl:text-xl">Vinyl Visions</div>
+            <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
           </div>
+          <button
+            aria-label="View project"
+            className="max-sm:border-transparent max-sm:aspect-square transition-all duration-700 text-sm sm:text-base group-hover:bg-primary-500 text-zinc-300 group-hover:text-zinc-950 rounded-full max-sm:h-10 justify-center sm:px-4 -tracking-100 sm:py-1.5 font-semibold border border-zinc-500 group-hover:border-primary-500 inline-flex items-center gap-2"
+          >
+            <span className="max-sm:hidden">View</span>
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" className="opacity-75 group-hover:opacity-100 sm:-mr-1 rotate-45 transition-transform group-hover:rotate-0 duration-700">
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".75" d="M17.25 15.25v-8.5h-8.5M17 7L6.75 17.25"></path>
+            </svg>
+          </button>
         </div>
       </div>
     );
@@ -262,12 +256,12 @@ export default function Home() {
                 <svg className="size-7 sm:size-8 text-zinc-500 " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth=".75"
                     d="M4.75 7.75C4.75 6.64543 5.64543 5.75 6.75 5.75H17.25C18.3546 5.75 19.25 6.64543 19.25 7.75V16.25C19.25 17.3546 18.3546 18.25 17.25 18.25H6.75C5.64543 18.25 4.75 17.3546 4.75 16.25V7.75Z"
                   ></path>
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75" d="M5.5 6.5L12 12.25L18.5 6.5"></path>
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".75" d="M5.5 6.5L12 12.25L18.5 6.5"></path>
                 </svg>
               </div>
             </div>
@@ -277,9 +271,9 @@ export default function Home() {
                   <path
                     d="M9.31 18.25C14.7819 18.25 17.7744 13.4403 17.7744 9.26994C17.7744 9.03682 17.9396 8.83015 18.152 8.73398C18.8803 8.40413 19.8249 7.49943 18.8494 5.97828C18.2031 6.32576 17.6719 6.51562 16.9603 6.74448C15.834 5.47393 13.9495 5.41269 12.7514 6.60761C11.9785 7.37819 11.651 8.52686 11.8907 9.62304C9.49851 9.49618 6.69788 7.73566 5.1875 5.76391C4.39814 7.20632 4.80107 9.05121 6.10822 9.97802C5.63461 9.96302 5.1716 9.82741 4.75807 9.58305V9.62304C4.75807 11.1255 5.75654 12.4191 7.1444 12.7166C6.70672 12.8435 6.24724 12.8622 5.80131 12.771C6.19128 14.0565 7.87974 15.4989 9.15272 15.5245C8.09887 16.4026 6.79761 16.8795 5.45806 16.8782C5.22126 16.8776 4.98504 16.8626 4.75 16.8326C6.11076 17.7588 7.69359 18.25 9.31 18.2475V18.25Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </li>
@@ -288,22 +282,22 @@ export default function Home() {
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M16.5 8C16.5 8.27614 16.2761 8.5 16 8.5C15.7239 8.5 15.5 8.27614 15.5 8C15.5 7.72386 15.7239 7.5 16 7.5C16.2761 7.5 16.5 7.72386 16.5 8Z"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M15.25 13C15.25 14.7949 13.7949 16.25 12 16.25C10.2051 16.25 8.75 14.7949 8.75 13C8.75 11.2051 10.2051 9.75 12 9.75C13.7949 9.75 15.25 11.2051 15.25 13Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </li>
@@ -312,13 +306,13 @@ export default function Home() {
                   <path
                     d="M19.25 12C19.25 16.0041 16.0041 19.25 12 19.25C7.99594 19.25 4.75 16.0041 4.75 12C4.75 7.99594 7.99594 4.75 12 4.75C16.0041 4.75 19.25 7.99594 19.25 12Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
-                  <path d="M8.27136 6.5C11.0577 8.10042 14.9494 11.1596 17.1497 16.5" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M16 6.38916C14.3573 8.37479 10.6906 11.7113 5 11" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M10.6876 18.9999C10.6876 18.9999 11.5 12.5001 18.7178 10.5001" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M8.27136 6.5C11.0577 8.10042 14.9494 11.1596 17.1497 16.5" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M16 6.38916C14.3573 8.37479 10.6906 11.7113 5 11" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M10.6876 18.9999C10.6876 18.9999 11.5 12.5001 18.7178 10.5001" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </li>
               <li className="grid aspect-square place-content-center rounded-2xl bg-gradient-to-tl from-zinc-900/75 to-zinc-900 ">
@@ -326,20 +320,20 @@ export default function Home() {
                   <path
                     d="M4.75 7.75C4.75 6.09315 6.09315 4.75 7.75 4.75H16.25C17.9069 4.75 19.25 6.09315 19.25 7.75V16.25C19.25 17.9069 17.9069 19.25 16.25 19.25H7.75C6.09315 19.25 4.75 17.9069 4.75 16.25V7.75Z"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M10.75 16.25V14C10.75 12.7574 11.7574 11.75 13 11.75C14.2426 11.75 15.25 12.7574 15.25 14V16.25"
                     stroke="currentColor"
-                    stroke-width=".75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth=".75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
-                  <path d="M10.75 11.75V16.25" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M7.75 11.75V16.25" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M7.75 8.75V9.25" stroke="currentColor" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M10.75 11.75V16.25" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M7.75 11.75V16.25" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M7.75 8.75V9.25" stroke="currentColor" strokeWidth=".75" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </li>
             </ol>
