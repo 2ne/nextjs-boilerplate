@@ -198,7 +198,7 @@ export default function Home() {
       <div className="cursor-pointer relative bg-gradient-to-tl from-zinc-900/75 to-zinc-900 fade-in-out-scroll group rounded-2xl overflow-clip">
         <div className="absolute inset-0 bg-[url('/vinyl-visions.png')] bg-no-repeat bg-cover group-hover:scale-[1.05] transition-transform duration-700" />
         <div className="inset-0 absolute bg-gradient-to-b to-zinc-900 backdrop-blur-2xl backdrop-brightness-75"></div>
-        <div className="p-4 sm:p-6 pb-0 overflow-clip rounded-xl">
+        <div className="p-4 sm:p-6 !pb-0 overflow-clip rounded-xl">
           <Image height={702} width={1248} alt="Vinyl Visions Mockup" src="/vinyl-visions.png" className="relative rounded-xl" />
         </div>
         <div className="relative p-4 sm:p-6 flex items-center justify-between">
