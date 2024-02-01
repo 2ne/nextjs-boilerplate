@@ -1,7 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Balancer from "react-wrap-balancer";
+import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 
 export default function Home() {
+  const lenis = useLenis(({ scroll }) => {});
+
   const Header: React.FC = () => {
     return (
       <header className="mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 flex justify-between items-center">
@@ -431,11 +436,13 @@ export default function Home() {
   };
 
   return (
-    <div className="xl:space-y-6">
-      <Header />
-      <Info className="fade-in-out-scroll" />
-      <Work className="fade-in-out-scroll" />
-      <Contact className="fade-in-out-scroll" />
-    </div>
+    <ReactLenis root>
+      <div className="xl:space-y-6">
+        <Header />
+        <Info className="fade-in-out-scroll" />
+        <Work className="fade-in-out-scroll" />
+        <Contact className="fade-in-out-scroll" />
+      </div>
+    </ReactLenis>
   );
 }
