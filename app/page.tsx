@@ -218,7 +218,7 @@ export default function Home() {
             </div>
             <button
               aria-label="View project"
-              className="max-sm:border-transparent max-sm:aspect-square transition-all duration-700 text-sm sm:text-base group-hover:bg-primary-500 text-zinc-300 group-hover:text-zinc-950 rounded-full max-sm:h-10 justify-center sm:px-4 -tracking-100 sm:py-1.5 font-semibold border border-zinc-500 group-hover:border-primary-500 inline-flex items-center gap-2"
+              className="max-sm:border-transparent max-sm:aspect-square transition-all duration-700 text-sm sm:text-base bg-transparent group-hover:bg-primary-500 text-zinc-300 group-hover:text-zinc-950 rounded-full max-sm:h-10 justify-center sm:px-4 -tracking-100 sm:py-1.5 font-semibold border border-zinc-500 group-hover:border-primary-500 inline-flex items-center gap-2"
             >
               <span className="max-sm:hidden">View</span>
               <svg width="24" height="24" fill="none" viewBox="0 0 24 24" className="opacity-75 group-hover:opacity-100 sm:-mr-1 rotate-45 transition-transform group-hover:rotate-0 duration-700">
