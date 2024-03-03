@@ -205,6 +205,7 @@ export default function Home() {
         <Image
           width={333}
           height={657}
+          unoptimized={true}
           alt="JoinIn Timetable"
           src="/joinin-timetable-1.png"
           className="relative mx-auto rounded-2xl rounded-b-none translate-y-1 group-hover:translate-y-0 duration-700 transition-transform"
