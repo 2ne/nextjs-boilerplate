@@ -205,13 +205,13 @@ export default function Home() {
         <Image
           width={333}
           height={657}
-          unoptimized={true}
+          quality={100}
           alt="JoinIn Timetable"
-          src="/joinin-timetable-2.png"
+          src="/joinin-timetable.png"
           className="relative mx-auto rounded-2xl rounded-b-none translate-y-1 group-hover:translate-y-0 duration-700 transition-transform"
         />
         <div className="relative p-4 sm:p-6 overflow-clip">
-          <div className="absolute inset-0 bg-[url('/joinin-timetable-2.png')] brightness-125 blur-sm bg-no-repeat bg-[bottom_-2rem_center] duration-700 transition-transform -translate-y-2 group-hover:translate-y-1" />
+          <div className="absolute inset-0 bg-[url('/joinin-timetable.png')] brightness-125 blur-sm bg-no-repeat bg-[bottom_-2rem_center] duration-700 transition-transform -translate-y-2 group-hover:translate-y-1" />
           <div className="inset-0 absolute bg-gradient-to-b to-zinc-900 backdrop-blur-2xl backdrop-brightness-[.70]"></div>
           <div className="relative flex items-center justify-between">
             <div className="space-y-0.5">
