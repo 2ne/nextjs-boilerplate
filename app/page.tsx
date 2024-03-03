@@ -199,23 +199,23 @@ export default function Home() {
     );
   };
 
-  const VinylVisions: React.FC = () => {
+  const JoinInTimetable: React.FC = () => {
     return (
       <div className="cursor-pointer relative bg-gradient-to-tl from-zinc-900/75 to-zinc-900 fade-in-out-scroll group rounded-2xl overflow-clip">
         <Image
-          height={702}
-          width={1248}
-          alt="Vinyl Visions Mockup"
-          src="/vinyl-visions.png"
-          className="will-change-[transform] relative rounded-2xl rounded-b-none group-hover:scale-[1.025] transition-transform duration-700"
+          width={333}
+          height={657}
+          alt="JoinIn Timetable"
+          src="/joinin-timetable-1.png"
+          className="relative mx-auto rounded-2xl rounded-b-none translate-y-1 group-hover:translate-y-0 duration-700 transition-transform"
         />
         <div className="relative p-4 sm:p-6 overflow-clip">
-          <div className="will-change-[transform] absolute inset-0 bg-[url('/vinyl-visions.png')] bg-no-repeat bg-[bottom_1rem_center] group-hover:bg-[bottom_1.5rem_center] bg-cover group-hover:scale-[1.025] transition-transform duration-700" />
+          <div className="absolute inset-0 bg-[url('/joinin-timetable-1.png')] blur-md bg-no-repeat bg-[bottom_0_center] bg-cover duration-700 transition-transform -translate-y-2 group-hover:translate-y-1" />
           <div className="inset-0 absolute bg-gradient-to-b to-zinc-900 backdrop-blur-2xl backdrop-brightness-[.70]"></div>
           <div className="relative flex items-center justify-between">
             <div className="space-y-0.5">
-              <div className="text-base font-medium -tracking-100 xl:text-xl">Vinyl Visions</div>
-              <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Branding, UI, UX, Development</div>
+              <div className="text-base font-medium -tracking-100 xl:text-xl">JoinIn Timetable</div>
+              <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">UI, UX, React</div>
             </div>
             <button
               aria-label="View project"
@@ -240,10 +240,11 @@ export default function Home() {
     return (
       <section className={`mx-auto w-full max-w-4xl xl:max-w-8xl p-4 sm:p-8 xl:px-12 ${className ? className : ""}`}>
         <Title label="work" />
-        <div className="space-y-3 xl:space-y-8">
-          <VinylVisions />
-          <VinylVisions />
-          <VinylVisions />
+        <div className="gap-2 grid md:grid-cols-2">
+          <JoinInTimetable />
+          <JoinInTimetable />
+          <JoinInTimetable />
+          <JoinInTimetable />
         </div>
       </section>
     );
