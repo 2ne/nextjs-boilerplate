@@ -216,7 +216,7 @@ export default function Home() {
           <div className="relative flex items-center justify-between">
             <div className="space-y-0.5">
               <div className="text-base font-medium -tracking-100 xl:text-xl">JoinIn Timetable</div>
-              <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">UI, UX, React</div>
+              <div className="text-sm sm:text-base font-medium -tracking-100 text-zinc-500">Product Design</div>
             </div>
             <button
               aria-label="View project"
