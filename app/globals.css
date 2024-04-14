@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@media not all and (min-width: 640px) { 
+@media not all and (min-width: 640px) {
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .logo {
-      letter-spacing: -.05em;
+      letter-spacing: -0.05em;
     }
   }
+}
+
+.to-zinc-900 {
+  @apply border-t border-white/[.075];
 }
 
 @supports (animation-timeline: view()) {
